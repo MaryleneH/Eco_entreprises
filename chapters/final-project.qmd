@@ -1,0 +1,206 @@
+---
+title: "Projet final"
+subtitle: "Analyse économique du secteur de la défense en France et en Europe"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+---
+
+```{=html}
+<div class="hero-badge" style="margin-top:1rem;">🎯 Projet final &nbsp;·&nbsp; Mois 3, Semaines 10–12</div>
+```
+
+## Présentation du projet
+
+Le projet final est la **pièce maîtresse** de la formation. Il vous demande de mobiliser l'ensemble des connaissances et compétences acquises au cours des 12 semaines pour produire une analyse économique complète et rigoureuse du secteur de la défense en France et en Europe.
+
+::: {.callout-note}
+## 🎯 Titre du projet
+**"Analyse économique du secteur de la défense en France et en Europe"**
+
+Ce projet doit démontrer votre capacité à :
+- Mobiliser les sources officielles de manière rigoureuse et critique
+- Appliquer les concepts économiques à des données réelles
+- Produire une analyse comparative à l'échelle européenne
+- Identifier et expliciter les limites méthodologiques
+- Présenter vos résultats de façon claire et professionnelle
+:::
+
+---
+
+## Cahier des charges
+
+### Longueur et format
+
+- **Format** : Rapport structuré ou document Quarto/RMarkdown/Jupyter Notebook
+- **Longueur** : 6 000–10 000 mots (hors annexes, bibliographie et code)
+- **Visualisations** : Minimum 5 graphiques ou tableaux commentés
+- **Sources** : Minimum 10 sources citées, dont au minimum 3 sources de données officielles
+
+### Structure obligatoire du projet
+
+Le projet doit comporter les sections suivantes :
+
+---
+
+## 1. Introduction et définition du périmètre
+
+Cette section doit répondre aux questions :
+- Quel périmètre économique retient-on pour "le secteur de la défense" dans ce travail ?
+- Pourquoi ce périmètre ? Quelles alternatives auraient été possibles ?
+- Quelles sont les grandes questions auxquelles ce travail cherche à répondre ?
+
+::: {.callout-tip}
+## 💡 Conseil méthodologique
+La définition du périmètre est l'une des parties les plus importantes et les plus négligées. Une analyse robuste commence par une délimitation claire et assumée du champ étudié. Vous devez choisir entre plusieurs approches (COFOG, OTAN, NAF/NACE, base industrielle) et justifier votre choix.
+:::
+
+---
+
+## 2. Comparaison et évaluation des sources
+
+Cette section doit :
+- Présenter les sources de données utilisées
+- Comparer leurs périmètres et méthodologies (INSEE, Eurostat COFOG, OTAN, SSM Défense, SIPRI)
+- Identifier les divergences entre sources pour une même variable
+- Justifier les choix de sources retenus pour l'analyse
+
+**Structure suggérée** :
+
+| Source | Indicateur | Valeur France (dernière année disponible) | Définition |
+|--------|-----------|------------------------------------------|------------|
+| Eurostat COFOG | Dépenses publiques défense/PIB | À compléter | COFOG 02 |
+| OTAN | Dépenses défense/PIB | À compléter | Définition OTAN |
+| SIPRI | Dépenses militaires/PIB | À compléter | Définition SIPRI |
+| SSM Défense | Emplois directs BITD | À compléter | Périmètre DGA |
+
+---
+
+## 3. Statistiques d'entreprises du secteur défense français
+
+Cette section doit analyser la structure économique de l'industrie de défense française :
+
+**Éléments à couvrir** :
+- Nombre d'entreprises identifiées comme appartenant à la BITD selon la méthode retenue
+- Répartition par taille (TPE/PME/ETI/GE)
+- Chiffre d'affaires total et évolution
+- Valeur ajoutée et emploi direct
+- Répartition géographique
+
+::: {.callout-note}
+## 🔗 Sources à mobiliser
+- INSEE ESANE (via [insee.fr](https://www.insee.fr) ou [data.gouv.fr](https://www.data.gouv.fr))
+- SSM Défense, Bilan économique de la défense
+- GIFAS (industrie aéronautique, spatiale et de défense)
+:::
+
+---
+
+## 4. Dépenses de défense en France et comparaison européenne
+
+Cette section doit produire une analyse comparative des dépenses de défense :
+
+**Éléments à couvrir** :
+- Évolution des dépenses de défense françaises sur 10 ans (en volume, en % du PIB, par composante)
+- Comparaison avec au moins 5 autres pays européens membres de l'OTAN
+- Analyse de la décomposition des dépenses (personnel, équipement, R&D)
+- Discussion sur l'objectif des 2% et sa pertinence
+
+::: {.callout-tip}
+## 💡 Visualisation suggérée
+Graphique en barres groupées ou graphique en aires montrant l'évolution de la part des dépenses de défense dans le PIB pour la France, l'Allemagne, le Royaume-Uni, l'Italie, la Pologne et l'Espagne sur 2010–2023.
+
+Source : NATO Defence Expenditure Statistics ou Eurostat COFOG.
+:::
+
+---
+
+## 5. Analyse sectorielle : la BITD dans le contexte européen
+
+Cette section doit mettre en perspective la BITD française dans le contexte européen :
+
+**Éléments à couvrir** :
+- Part de la France dans la BITD européenne (selon un indicateur au choix)
+- Principaux secteurs de spécialisation (aéronautique, missiles, naval, terrestre, électronique)
+- Exportations d'armement françaises et part de marché mondiale (source SIPRI)
+- Comparaison avec l'industrie de défense allemande, britannique ou italienne
+
+---
+
+## 6. Limites méthodologiques
+
+::: {.callout-caution}
+## ⚠️ Section obligatoire — Limites méthodologiques
+Cette section n'est pas un exercice de style. Elle doit montrer votre capacité à identifier les fragilités réelles de votre analyse :
+
+- Limites liées aux sources utilisées (secret statistique, auto-déclaration, délais)
+- Limites liées à la définition du périmètre retenu
+- Risques de double compte ou d'omission
+- Limites des comparaisons internationales (PPA, définitions divergentes)
+- Ce que votre analyse ne peut pas mesurer
+:::
+
+---
+
+## 7. Visualisations
+
+Votre travail doit inclure au minimum :
+
+1. **Graphique 1** : Évolution des dépenses de défense françaises en % du PIB sur 2010–2023
+2. **Graphique 2** : Comparaison européenne des dépenses de défense (dernière année disponible)
+3. **Graphique 3** : Structure des dépenses de défense françaises par composante (personnel/équipement/R&D)
+4. **Graphique 4** : Part de marché des exportations d'armement françaises (données SIPRI)
+5. **Graphique 5** : Taille et structure de la BITD française (employés, CA, ou autre indicateur)
+
+*Les graphiques doivent être commentés, sourcés et lisibles.*
+
+---
+
+## 8. Conclusion
+
+La conclusion doit :
+- Synthétiser les principaux résultats
+- Répondre aux questions posées en introduction
+- Proposer des pistes pour des analyses futures
+- Identifier les enjeux politiques et économiques que soulève l'analyse
+
+---
+
+## Critères d'évaluation
+
+```{=html}
+<div style="overflow-x:auto;margin:1.5rem 0;">
+<table>
+<thead>
+<tr>
+  <th>Critère</th>
+  <th>Pondération</th>
+  <th>Ce qui est évalué</th>
+</tr>
+</thead>
+<tbody>
+<tr><td><strong>Rigueur des sources</strong></td><td>25%</td><td>Sources officielles correctement citées, méthodes documentées</td></tr>
+<tr><td><strong>Qualité de l'analyse économique</strong></td><td>25%</td><td>Application correcte des concepts économiques</td></tr>
+<tr><td><strong>Comparaison européenne</strong></td><td>20%</td><td>Pertinence et rigueur de la comparaison internationale</td></tr>
+<tr><td><strong>Traitement des limites</strong></td><td>15%</td><td>Esprit critique, identification des limites méthodologiques</td></tr>
+<tr><td><strong>Visualisations</strong></td><td>10%</td><td>Clarté, pertinence, sourcing des graphiques</td></tr>
+<tr><td><strong>Présentation</strong></td><td>5%</td><td>Structure, clarté de l'expression, bibliographie</td></tr>
+</tbody>
+</table>
+</div>
+```
+
+---
+
+## Ressources pour le projet
+
+- **INSEE** : [www.insee.fr](https://www.insee.fr) — comptes nationaux, ESANE, SIRENE
+- **Eurostat** : [ec.europa.eu/eurostat](https://ec.europa.eu/eurostat) — COFOG, SBS
+- **OTAN** : [NATO Defence Expenditure](https://www.nato.int/cps/en/natohq/topics_49198.htm)
+- **SIPRI** : [www.sipri.org](https://www.sipri.org) — MILEX database, arms transfers
+- **SSM Défense** : [Ministère des Armées — Statistiques](https://www.defense.gouv.fr)
+- **data.gouv.fr** : [www.data.gouv.fr](https://www.data.gouv.fr) — données ouvertes dont marchés publics
+- **Agence européenne de défense** : [www.eda.europa.eu](https://www.eda.europa.eu)
+
+→ Voir le module [Ressources](resources.html) pour une liste complète des liens et bases de données.

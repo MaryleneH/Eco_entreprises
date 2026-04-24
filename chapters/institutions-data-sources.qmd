@@ -1,0 +1,304 @@
+---
+title: "Institutions et sources de données"
+subtitle: "INSEE, Eurostat, SSM Défense, OTAN, data.gouv.fr — rôles, données et limites"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+---
+
+```{=html}
+<div class="hero-badge" style="margin-top:1rem;">🏛️ Institutions &nbsp;·&nbsp; Mois 2, Semaine 6</div>
+```
+
+## Introduction
+
+Comprendre les données sur la défense exige de comprendre **qui les produit, selon quelles méthodes, avec quels objectifs et quelles limites**. Ce module présente les cinq principales institutions productrices de données sur la défense et l'économie militaire, en insistant sur leurs différences, leurs complémentarités et leurs angles morts.
+
+::: {.callout-note}
+## 🎯 Objectif du module
+À l'issue de ce module, vous serez capables de :
+- Identifier quelle source utiliser pour quelle question
+- Comprendre les différences méthodologiques entre sources
+- Croiser les données de manière critique
+- Identifier les limites de chaque source
+:::
+
+---
+
+## 1. INSEE — Institut National de la Statistique et des Études Économiques
+
+```{=html}
+<div class="institution-card reveal" style="text-align:left;">
+  <div style="display:flex;align-items:flex-start;gap:1.5rem;margin-bottom:1rem;">
+    <div style="font-size:2.5rem;min-width:3rem;">📈</div>
+    <div>
+      <h3 style="margin:0 0 0.25rem;">INSEE</h3>
+      <span style="font-size:0.82rem;color:#2d6a9f;font-weight:600;text-transform:uppercase;letter-spacing:0.05em;">Institut national de la statistique et des études économiques</span>
+    </div>
+  </div>
+</div>
+```
+
+### 1.1 Rôle institutionnel
+
+L'INSEE est le **service statistique national** de la France. Sa mission principale est de produire, analyser et diffuser les statistiques économiques, sociales et démographiques du pays. Il est placé sous l'autorité du Ministère de l'Économie mais bénéficie d'une **indépendance professionnelle** garantie par la loi.
+
+### 1.2 Données publiées (pertinentes pour la défense)
+
+| Jeu de données | Description | Fréquence |
+|----------------|-------------|-----------|
+| **Comptes nationaux** | PIB, FBCF, dépenses publiques (dont défense) | Trimestriel/Annuel |
+| **ESANE** | Statistiques annuelles d'entreprises (CA, VA, emploi) | Annuel |
+| **SIRENE** | Répertoire des entreprises et établissements | Continu |
+| **Enquête sur les entreprises industrielles** | Structurel, par secteur NAF | Annuel |
+| **DADS** | Déclarations annuelles de données sociales (emploi, salaires) | Annuel |
+
+### 1.3 Ce que l'INSEE ne fait pas
+
+::: {.callout-caution}
+## ⚠️ Limites de l'INSEE pour l'analyse de la défense
+- **Pas de statistiques spécialisées "défense"** : l'INSEE produit des statistiques générales, pas sectorielles-défense
+- **Secret statistique** : les données individuelles d'entreprises ne sont pas publiées
+- **Périmètre national uniquement** : pas de comparaisons européennes directes (c'est le rôle d'Eurostat)
+- **Délai de publication** : les données les plus détaillées sont souvent publiées avec 2–3 ans de décalage
+:::
+
+**Lien officiel** : [www.insee.fr](https://www.insee.fr)
+
+---
+
+## 2. Eurostat — Office Statistique de l'Union Européenne
+
+```{=html}
+<div class="institution-card reveal" style="text-align:left;">
+  <div style="display:flex;align-items:flex-start;gap:1.5rem;margin-bottom:1rem;">
+    <div style="font-size:2.5rem;min-width:3rem;">🇪🇺</div>
+    <div>
+      <h3 style="margin:0 0 0.25rem;">Eurostat</h3>
+      <span style="font-size:0.82rem;color:#2d6a9f;font-weight:600;text-transform:uppercase;letter-spacing:0.05em;">Office statistique de l'Union européenne — Luxembourg</span>
+    </div>
+  </div>
+</div>
+```
+
+### 2.1 Rôle institutionnel
+
+Eurostat est le **bras statistique de la Commission européenne**. Sa mission est d'harmoniser les données statistiques des États membres pour permettre des comparaisons fiables au sein de l'UE. Eurostat **ne collecte pas directement des données** : il reçoit, contrôle et diffuse les données transmises par les instituts nationaux (comme l'INSEE).
+
+### 2.2 Données pertinentes pour la défense
+
+| Base de données | Description | Code |
+|-----------------|-------------|------|
+| **COFOG** | Classification of Functions of Government — dépenses publiques par fonction dont défense (COFOG 02) | GOV_10A_EXP |
+| **SBS** | Structural Business Statistics — statistiques d'entreprises par NACE | SBS |
+| **NA** | Comptes nationaux européens harmonisés | NASA/ESA 2010 |
+| **HICP** | Indice des prix harmonisé | HICP |
+
+### 2.3 La COFOG 02 — clé pour les dépenses de défense européennes
+
+::: {.callout-note}
+## 📖 Définition — COFOG 02 Défense
+La division **02 de la COFOG** comprend :
+- **02.1** : Administration militaire
+- **02.2** : Défense militaire
+- **02.3** : Aide militaire à des pays étrangers
+- **02.4** : R&D en matière de défense
+- **02.5** : Défense n.c.a. (non classé ailleurs)
+
+Cette classification est la **seule base harmonisée** permettant de comparer les dépenses de défense entre pays de l'UE.
+
+→ Source: [Eurostat COFOG methodological guide](https://ec.europa.eu/eurostat/statistics-explained/index.php/Government_expenditure_on_defence)
+:::
+
+### 2.4 Limites d'Eurostat pour la défense
+
+::: {.callout-caution}
+## ⚠️ Limites d'Eurostat
+- **Agrégation** : Eurostat publie des totaux nationaux, pas des données d'entreprises individuelles
+- **Périmètre COFOG ≠ périmètre OTAN** : les dépenses comptabilisées par Eurostat (COFOG) et celles déclarées à l'OTAN suivent des définitions différentes
+- **Secret statistique partagé** : certains pays peuvent classer des dépenses militaires dans d'autres fonctions COFOG
+- **Délais** : données disponibles avec retard
+:::
+
+**Lien officiel** : [ec.europa.eu/eurostat](https://ec.europa.eu/eurostat)
+
+---
+
+## 3. SSM Défense — Service Statistique Ministériel
+
+```{=html}
+<div class="institution-card reveal" style="text-align:left;">
+  <div style="display:flex;align-items:flex-start;gap:1.5rem;margin-bottom:1rem;">
+    <div style="font-size:2.5rem;min-width:3rem;">⚔️</div>
+    <div>
+      <h3 style="margin:0 0 0.25rem;">SSM Défense</h3>
+      <span style="font-size:0.82rem;color:#2d6a9f;font-weight:600;text-transform:uppercase;letter-spacing:0.05em;">Service statistique ministériel du Ministère des Armées</span>
+    </div>
+  </div>
+</div>
+```
+
+### 3.1 Rôle institutionnel
+
+Le SSM Défense est le **service statistique officiel du Ministère des Armées**. Il produit des statistiques spécifiques au secteur défense que ni l'INSEE ni Eurostat ne publient. C'est la source la plus spécialisée pour l'analyse de la défense française.
+
+### 3.2 Données publiées
+
+- **Bilan économique de la défense** : emplois directs de défense, exportations d'armement, investissement
+- **Tableau de bord de l'économie de la défense** : agrégats macroéconomiques de la défense
+- **Statistiques sur la BITD** (Base Industrielle et Technologique de Défense)
+- **Données sur les marchés publics de défense**
+
+### 3.3 Atouts et limites
+
+::: {.callout-tip}
+## ✅ Atouts du SSM Défense
+- **Spécialisation** : seule source officielle française avec une définition "défense" opérationnelle
+- **Accès à des données non publiques** via les liens avec la DGA et l'administration des armées
+- **Publication régulière** du bilan économique
+:::
+
+::: {.callout-caution}
+## ⚠️ Limites du SSM Défense
+- **Périmètre restreint** : se concentre sur la défense au sens français du Ministère des Armées, pas sur l'ensemble de la sécurité nationale
+- **Comparabilité limitée** avec les statistiques Eurostat ou OTAN (définitions différentes)
+- **Moindre visibilité** que l'INSEE ou Eurostat pour les utilisateurs externes
+:::
+
+**Lien officiel** : [Ministère des Armées — Statistiques de défense](https://www.defense.gouv.fr/dga)
+
+---
+
+## 4. OTAN — Organisation du Traité de l'Atlantique Nord
+
+```{=html}
+<div class="institution-card reveal" style="text-align:left;">
+  <div style="display:flex;align-items:flex-start;gap:1.5rem;margin-bottom:1rem;">
+    <div style="font-size:2.5rem;min-width:3rem;">🛡️</div>
+    <div>
+      <h3 style="margin:0 0 0.25rem;">OTAN (NATO)</h3>
+      <span style="font-size:0.82rem;color:#2d6a9f;font-weight:600;text-transform:uppercase;letter-spacing:0.05em;">Organisation du Traité de l'Atlantique Nord</span>
+    </div>
+  </div>
+</div>
+```
+
+### 4.1 Les statistiques de dépenses de défense de l'OTAN
+
+L'OTAN publie chaque année les **dépenses de défense des pays membres** selon sa propre méthodologie. C'est la **source la plus utilisée** pour les comparaisons internationales de dépenses de défense.
+
+::: {.callout-note}
+## 📖 Définition — Dépenses de défense selon l'OTAN
+L'OTAN utilise une définition spécifique qui inclut :
+- Les dépenses des forces armées nationales
+- Les forces paramilitaires si entraînées et équipées pour des opérations militaires
+- Les agences d'armement
+- La R&D militaire
+- Les dépenses des autres ministères si directement liées à la défense
+
+Cette définition **diffère de COFOG 02** et des définitions nationales.
+:::
+
+### 4.2 Limites de la comparabilité OTAN
+
+::: {.callout-caution}
+## ⚠️ Point critique — Les limites des statistiques OTAN
+1. **Auto-déclaration** : les pays déclarent eux-mêmes leurs données selon les formulaires OTAN
+2. **Définitions nationales divergentes** : malgré les guidelines OTAN, des différences d'interprétation persistent
+3. **Pressions politiques** : l'objectif des 2% crée des incitations à "gonfler" les dépenses déclarées
+4. **Différences de PIB** : un pays avec un PIB élevé peut atteindre les 2% avec des dépenses absolues moindres
+5. **Non comparabilité COFOG/OTAN** : les totaux OTAN et COFOG 02 pour un même pays ne coïncident généralement pas
+:::
+
+**Lien officiel** : [NATO Defence Expenditure Statistics](https://www.nato.int/cps/en/natohq/topics_49198.htm)
+
+---
+
+## 5. data.gouv.fr — Plateforme des données ouvertes françaises
+
+```{=html}
+<div class="institution-card reveal" style="text-align:left;">
+  <div style="display:flex;align-items:flex-start;gap:1.5rem;margin-bottom:1rem;">
+    <div style="font-size:2.5rem;min-width:3rem;">🌐</div>
+    <div>
+      <h3 style="margin:0 0 0.25rem;">data.gouv.fr</h3>
+      <span style="font-size:0.82rem;color:#2d6a9f;font-weight:600;text-transform:uppercase;letter-spacing:0.05em;">Portail des données ouvertes du gouvernement français</span>
+    </div>
+  </div>
+</div>
+```
+
+### 5.1 Rôle
+
+data.gouv.fr est le **portail officiel de l'open data français**. Il centralise les jeux de données publiés par toutes les administrations françaises, y compris le Ministère des Armées, l'INSEE, les collectivités locales, etc.
+
+### 5.2 Données pertinentes pour la défense
+
+- **Marchés publics** : données DECP (Données essentielles de la commande publique), incluant les marchés de défense non classifiés
+- **Budget de l'État** : données de la Direction du Budget sur les crédits défense
+- **Exportations d'armement** : rapport au Parlement disponible en open data
+- **Emploi public** : effectifs militaires et civils du Ministère des Armées
+
+**Lien officiel** : [www.data.gouv.fr](https://www.data.gouv.fr)
+
+---
+
+## 6. Tableau comparatif des institutions
+
+```{=html}
+<div style="overflow-x:auto;margin:1.5rem 0;">
+<table>
+<thead>
+<tr>
+  <th>Critère</th>
+  <th>INSEE</th>
+  <th>Eurostat</th>
+  <th>SSM Défense</th>
+  <th>OTAN</th>
+  <th>data.gouv.fr</th>
+</tr>
+</thead>
+<tbody>
+<tr><td><strong>Périmètre géographique</strong></td><td>France</td><td>UE27</td><td>France (défense)</td><td>32 membres OTAN</td><td>France (open data)</td></tr>
+<tr><td><strong>Spécialisation défense</strong></td><td>Non</td><td>Non (COFOG)</td><td>Oui</td><td>Oui</td><td>Partielle</td></tr>
+<tr><td><strong>Niveau de détail</strong></td><td>Très élevé</td><td>Agrégé</td><td>Moyen</td><td>Agrégé</td><td>Variable</td></tr>
+<tr><td><strong>Harmonisation internationale</strong></td><td>Avec Eurostat</td><td>Standard UE</td><td>Limitée</td><td>Standard OTAN</td><td>Non</td></tr>
+<tr><td><strong>Open data</strong></td><td>Partiel</td><td>Oui</td><td>Limité</td><td>Partiel</td><td>Oui</td></tr>
+<tr><td><strong>Fréquence principale</strong></td><td>Annuel</td><td>Annuel</td><td>Annuel</td><td>Annuel</td><td>Variable</td></tr>
+</tbody>
+</table>
+</div>
+```
+
+---
+
+## 7. Comment combiner ces sources
+
+::: {.callout-tip}
+## 💡 Stratégie d'utilisation des sources
+
+**Pour analyser la France** :
+→ INSEE (structure économique) + SSM Défense (données défense spécialisées) + data.gouv.fr (marchés publics)
+
+**Pour comparer la France avec l'Europe** :
+→ Eurostat COFOG 02 (dépenses publiques harmonisées) + SBS/NACE (statistiques d'entreprises)
+
+**Pour comparer au niveau OTAN** :
+→ Statistiques de dépenses OTAN + SIPRI (vérification croisée)
+
+**Pour analyser l'industrie de défense** :
+→ INSEE ESANE + SSM Défense BITD + SIPRI Arms Transfers Database
+:::
+
+---
+
+## Synthèse
+
+Chaque source couvre une dimension différente de l'économie de la défense. **Aucune source n'est suffisante seule** : la qualité de l'analyse dépend de la capacité à croiser intelligemment ces sources en comprenant leurs périmètres et leurs limites.
+
+## Lectures recommandées
+
+- **Eurostat** : [Methodological manual on government finance statistics](https://ec.europa.eu/eurostat/web/government-finance-statistics/publications)
+- **OTAN** : [Financial and Economic Data Relating to NATO Defence](https://www.nato.int/nato_static_fl2014/assets/pdf/2024/6/pdf/240617-def-exp-2024-en.pdf)
+- **Fontanel, J.** (2004). *Économie politique de la sécurité internationale*. — sur les indicateurs de dépenses militaires.

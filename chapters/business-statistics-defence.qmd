@@ -1,0 +1,218 @@
+---
+title: "Statistiques d'entreprises et défense"
+subtitle: "Concepts, nomenclatures, mesure et difficultés spécifiques au secteur défense"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+---
+
+```{=html}
+<div class="hero-badge" style="margin-top:1rem;">📊 Statistiques &nbsp;·&nbsp; Mois 2, Semaines 5–6</div>
+```
+
+## Introduction
+
+Mesurer statistiquement le secteur de la défense est une tâche complexe. Contrairement à d'autres secteurs industriels, l'activité de défense est **diffuse, partiellement opaque et statistiquement mal délimitée**. Ce module présente les concepts fondamentaux des statistiques d'entreprises et explique pourquoi la défense pose des problèmes méthodologiques spécifiques.
+
+::: {.callout-caution}
+## ⚠️ Avertissement méthodologique
+Il n'existe pas de "secteur défense" clairement délimité dans les nomenclatures statistiques standard. L'identification des entreprises de défense repose sur des approches indirectes (codes NAF, bases de données spécialisées, déclarations fiscales) qui toutes comportent des biais importants.
+:::
+
+---
+
+## 1. Concepts fondamentaux des statistiques d'entreprises
+
+### 1.1 L'architecture du système d'information statistique français
+
+Le système statistique français distingue plusieurs **unités statistiques** qu'il est indispensable de maîtriser :
+
+```{=html}
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1rem;margin:1.5rem 0;">
+  <div style="background:#fff;border-radius:0.75rem;padding:1.5rem;border:1px solid rgba(26,58,92,0.1);box-shadow:0 2px 12px rgba(26,58,92,0.06);">
+    <div style="font-size:1.8rem;margin-bottom:0.75rem;">🏢</div>
+    <strong style="color:#1a3a5c;">Entreprise</strong>
+    <p style="font-size:0.85rem;color:#6a7a88;margin-top:0.5rem;">Unité économique de décision : entité juridique ou ensemble d'entités sous contrôle commun. Concept économique central depuis la loi LME 2008.</p>
+  </div>
+  <div style="background:#fff;border-radius:0.75rem;padding:1.5rem;border:1px solid rgba(26,58,92,0.1);box-shadow:0 2px 12px rgba(26,58,92,0.06);">
+    <div style="font-size:1.8rem;margin-bottom:0.75rem;">⚖️</div>
+    <strong style="color:#1a3a5c;">Unité légale</strong>
+    <p style="font-size:0.85rem;color:#6a7a88;margin-top:0.5rem;">Entité juridique formellement constituée (société, entreprise individuelle, etc.). Identifiée par son numéro SIREN. Différente de l'entreprise au sens économique.</p>
+  </div>
+  <div style="background:#fff;border-radius:0.75rem;padding:1.5rem;border:1px solid rgba(26,58,92,0.1);box-shadow:0 2px 12px rgba(26,58,92,0.06);">
+    <div style="font-size:1.8rem;margin-bottom:0.75rem;">📍</div>
+    <strong style="color:#1a3a5c;">Établissement</strong>
+    <p style="font-size:0.85rem;color:#6a7a88;margin-top:0.5rem;">Unité de production localisée géographiquement. Identifiée par son numéro SIRET (SIREN + 5 chiffres). Niveau pertinent pour l'analyse territoriale et l'emploi.</p>
+  </div>
+  <div style="background:#fff;border-radius:0.75rem;padding:1.5rem;border:1px solid rgba(26,58,92,0.1);box-shadow:0 2px 12px rgba(26,58,92,0.06);">
+    <div style="font-size:1.8rem;margin-bottom:0.75rem;">🌐</div>
+    <strong style="color:#1a3a5c;">Groupe d'entreprises</strong>
+    <p style="font-size:0.85rem;color:#6a7a88;margin-top:0.5rem;">Ensemble d'entreprises sous contrôle commun via liens capitalistiques. Niveau pertinent pour l'analyse de la BITD (ex. : groupe Thales, groupe Airbus).</p>
+  </div>
+</div>
+```
+
+::: {.callout-tip}
+## 💡 Pourquoi cette distinction est-elle cruciale pour la défense ?
+Un groupe comme **Thales** comprend des dizaines d'unités légales et des centaines d'établissements en France et à l'étranger. Certaines unités légales du groupe ont une activité majoritairement civile (transport, énergie) et d'autres majoritairement militaire (systèmes d'armes, capteurs). Statistiquement, on ne voit que les unités légales, pas le groupe dans sa dimension défense/civil.
+:::
+
+### 1.2 Le fichier SIRENE et le registre SIRUS
+
+L'INSEE gère deux bases de données essentielles :
+
+| Base | Contenu | Utilité pour la défense |
+|------|---------|------------------------|
+| SIRENE | Toutes les unités légales et établissements français | Identifier les entités formelles de la BITD |
+| SIRUS | Statistiques d'entreprises au sens économique (LME) | Analyser l'économie réelle des groupes de défense |
+| ESANE | Données structurelles annuelles d'entreprises | VA, chiffre d'affaires, emploi, investissement |
+
+: Principales bases de données INSEE pour l'analyse du secteur défense {.striped}
+
+---
+
+## 2. Nomenclatures : NAF, NACE et limites pour la défense
+
+### 2.1 La nomenclature NAF/NACE
+
+La **Nomenclature d'Activités Française (NAF)** est la déclinaison française de la **NACE** (Nomenclature statistique des Activités économiques dans la Communauté Européenne).
+
+::: {.callout-note}
+## 📖 Définition — Code APE (Activité Principale Exercée)
+Chaque unité légale se voit attribuer un **code APE** (correspondant à un code NAF rév. 2) qui décrit son activité principale. Ce code est attribué par l'INSEE lors de l'immatriculation. Il est crucial pour les statistiques sectorielles mais peut être obsolète ou imprécis pour les entreprises à activités multiples.
+:::
+
+### 2.2 Les codes NAF pertinents pour la défense
+
+Les activités de défense sont dispersées dans la nomenclature NAF/NACE :
+
+| Code NAF | Libellé | Pertinence défense |
+|----------|---------|-------------------|
+| 25.40Z | Fabrication d'armes et de munitions | Directe — cœur de l'armement |
+| 30.30Z | Construction aéronautique et spatiale | Forte — aéronefs militaires |
+| 30.11Z | Construction de navires et structures flottantes | Forte — marine nationale |
+| 30.40Z | Construction de véhicules militaires de combat | Directe |
+| 26.51B | Fabrication d'équipements de navigation, radar | Forte — systèmes électroniques de défense |
+| 72.19Z | Recherche-développement en autres sciences | Partielle — R&D duale |
+| 84.22Z | Défense nationale | Administration publique, hors industrie |
+
+: Codes NAF/NACE les plus pertinents pour identifier le secteur défense {.striped}
+
+::: {.callout-caution}
+## ⚠️ Limite majeure
+Un groupe comme **Thales** a pour code APE le code **26.51B** (équipements de navigation) mais produit aussi des systèmes de missiles, de communication militaire et de cybersécurité. Le code APE ne capture qu'une fraction de l'activité réelle de défense.
+
+Par ailleurs, des entreprises aéronautiques, électroniques ou de services numériques peuvent avoir une part significative de leur chiffre d'affaires liée à la défense sans que cela apparaisse dans leur code NAF principal.
+:::
+
+---
+
+## 3. Variables économiques clés
+
+### 3.1 Chiffre d'affaires, valeur ajoutée et emploi
+
+Les statistiques d'entreprises mobilisent plusieurs agrégats économiques :
+
+```{=html}
+<div style="background:linear-gradient(135deg,rgba(26,58,92,0.03),rgba(45,106,159,0.05));border-radius:1rem;padding:1.75rem;margin:1.5rem 0;border:1px solid rgba(26,58,92,0.08);">
+  <h4 style="color:#1a3a5c;margin-bottom:1.25rem;">📊 Principaux agrégats des statistiques d'entreprises</h4>
+  
+  <p><strong>Chiffre d'affaires (CA)</strong> : valeur des ventes de biens et services. Pour la défense, inclut les commandes de l'État et les exportations d'armement. Mesure brute de l'activité.</p>
+  
+  <p><strong>Valeur ajoutée (VA)</strong> : CA – consommations intermédiaires. Mesure la richesse créée par l'entreprise. Agrégée, elle constitue le PIB.</p>
+  
+  <p><strong>Excédent brut d'exploitation (EBE)</strong> : VA – charges de personnel – impôts sur la production. Mesure la rentabilité opérationnelle.</p>
+  
+  <p><strong>Emploi salarié</strong> : nombre de personnes rémunérées. Pour la défense, inclut le personnel spécialisé difficile à réorienter.</p>
+  
+  <p><strong>Investissement (FBCF)</strong> : acquisition de biens durables pour la production. Comprend R&D, équipements de production d'armements.</p>
+</div>
+```
+
+### 3.2 Spécificités des statistiques du secteur défense
+
+**L'emploi indirect dans la défense** est particulièrement difficile à mesurer :
+
+Un contractant principal (ex. : Naval Group pour un porte-avions) mobilise une chaîne de sous-traitants dont beaucoup ont une activité mixte défense/civil. L'emploi "défense" dans la sous-traitance doit être estimé par enquête ou modélisation input-output.
+
+---
+
+## 4. Le problème de délimitation statistique du secteur défense
+
+### 4.1 Les activités duales
+
+::: {.callout-note}
+## 📖 Définition — Technologie et activité duale (dual-use)
+Une technologie ou activité **duale** est utilisable à la fois pour des applications civiles et militaires. Exemples : drones (surveillance civile / reconnaissance militaire), cryptographie, systèmes de navigation, matériaux composites, intelligence artificielle.
+
+La dualité rend la frontière "défense/civil" floue et fluctuante.
+:::
+
+### 4.2 Approches de délimitation statistique
+
+Face à l'absence d'un périmètre statistique officiel du "secteur défense" industriel, les analystes utilisent plusieurs méthodes :
+
+| Approche | Principe | Avantages | Limites |
+|----------|---------|-----------|---------|
+| **Codes NAF** | Sélection des codes NAF directement liés à la défense | Simple, reproductible | Ne capte pas les activités duales ou les groupes diversifiés |
+| **Part du CA défense** | Identifier les entreprises dont le CA défense > seuil | Économiquement pertinent | Données non publiques, déclaratives |
+| **Bases de données DGA/GIFAS** | Répertoires d'entreprises homologuées défense | Exhaustif pour le périmètre France | Périmètre défini par l'administration, non standardisé |
+| **Modèles input-output** | Estimation des emplois indirects via matrices de Leontief | Capture l'effet chaîne | Complexité, hypothèses fortes, données agrégées |
+
+: Méthodes d'identification statistique du secteur défense {.striped}
+
+### 4.3 Les chaînes d'approvisionnement de défense
+
+La BITD n'est pas qu'un ensemble de grandes entreprises. Elle comprend :
+
+1. **Maîtres d'œuvre industriels** (prime contractors) : Airbus Defence, Thales, MBDA, Naval Group, Nexter, Safran...
+2. **Équipementiers de rang 1** : fournisseurs directs des maîtres d'œuvre
+3. **Sous-traitants de rang 2 et 3** : PME/ETI souvent à activité mixte défense/civil
+4. **Prestataires de services** : R&D, maintenance, logistique, formation
+
+::: {.callout-tip}
+## 💡 Exemple — La chaîne du Rafale
+Le Rafale implique plus de **500 entreprises françaises** dans sa chaîne d'approvisionnement. La plupart sont des PME dont l'activité défense est partielle. Les statistiques nationales de l'industrie de défense ne captent qu'une fraction de cet écosystème.
+
+*Source indicatif, chiffre à vérifier auprès de Dassault Aviation ou de la DGA.*
+:::
+
+---
+
+## 5. Les données disponibles
+
+### 5.1 Sources statistiques françaises sur la défense industrielle
+
+- **SSM Défense** (Service statistique ministériel du Ministère des Armées) : publie des données sur les entreprises de la BITD, l'emploi direct de défense, les exportations d'armement
+- **OCCAR** (Organisation Conjointe de Coopération en matière d'Armement) : données sur les programmes d'armement multinationaux
+- **DGA** : statistiques sur les commandes et les livraisons
+- **SIPRI** : base de données internationale sur les dépenses de défense et le commerce des armes
+
+::: {.callout-note}
+## 🔗 Source officielle — SSM Défense
+Le SSM Défense publie chaque année le **Bilan économique de la défense** avec des statistiques sur l'emploi, les exportations et le tissu industriel de défense.
+
+→ [Ministère des Armées — Statistiques](https://www.defense.gouv.fr/dga/thematiques/defense-economie/observatoire-economique-defense)
+:::
+
+---
+
+## Synthèse
+
+::: {.callout-tip}
+## 📋 À retenir
+
+1. **Quatre niveaux statistiques** : groupe, entreprise, unité légale, établissement — à ne pas confondre
+2. **Le code APE ne suffit pas** à délimiter le secteur défense : activités duales, diversification, sous-traitance
+3. **Valeur ajoutée, emploi et FBCF** sont les agrégats centraux des statistiques d'entreprises de défense
+4. **Plusieurs méthodes complémentaires** existent pour estimer la taille réelle du secteur défense
+5. **Le SSM Défense** est la source officielle la plus spécialisée pour les statistiques de la BITD française
+:::
+
+## Lectures recommandées
+
+- **INSEE** : [Définitions et méthodes statistiques](https://www.insee.fr/fr/metadonnees/definitions)
+- **Eurostat** : [Business Statistics](https://ec.europa.eu/eurostat/web/structural-business-statistics)
+- **GIFAS** : Rapport annuel de l'industrie aéronautique et spatiale française
+- **Hartley, K. & Sandler, T.** (eds.) (1995). *Handbook of Defense Economics*, Vol. 1. Elsevier — Ch. sur statistiques industrielles

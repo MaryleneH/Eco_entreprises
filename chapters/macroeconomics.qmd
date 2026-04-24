@@ -1,0 +1,201 @@
+---
+title: "Macroéconomie de la défense"
+subtitle: "PIB, dépenses publiques, croissance et arbitrages macroéconomiques"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+---
+
+```{=html}
+<div class="hero-badge" style="margin-top:1rem;">📈 Macroéconomie &nbsp;·&nbsp; Mois 1–2, Semaines 4–5</div>
+```
+
+## Introduction
+
+La macroéconomie de la défense s'intéresse aux effets agrégés des dépenses militaires sur l'économie nationale et internationale. Elle mobilise les instruments de la comptabilité nationale, de la théorie de la croissance et des finances publiques pour répondre à des questions essentielles : la défense est-elle un investissement ou une consommation ? Les dépenses militaires stimulent-elles ou freinent-elles la croissance ?
+
+::: {.callout-note}
+## 📖 Question centrale
+Les dépenses de défense sont-elles un **investissement productif** pour l'économie ou un **coût d'opportunité** au détriment d'autres dépenses publiques plus efficaces (éducation, santé, infrastructures) ?
+
+La réponse n'est pas tranchée dans la littérature économique.
+:::
+
+---
+
+## 1. PIB et comptabilisation des dépenses de défense
+
+### 1.1 La défense dans la comptabilité nationale
+
+Dans le **Système de comptabilité nationale (SCN 2008)** adopté par l'INSEE et Eurostat, les dépenses de défense sont comptabilisées comme :
+
+- **Consommation intermédiaire** pour les biens et services consommés dans l'activité militaire
+- **Formation brute de capital fixe (FBCF)** pour les équipements durables (armements lourds, véhicules, navires, aéronefs)
+- **Rémunération des salariés** pour les dépenses de personnel militaire
+
+::: {.callout-note}
+## 📖 Définition — COFOG
+La **Classification of Functions of Government (COFOG)** d'Eurostat classe les dépenses publiques par fonction. La **division 02** est entièrement dédiée à la défense. Elle permet de comparer les dépenses de défense entre pays européens sur une base harmonisée.
+
+→ Source : [Eurostat COFOG](https://ec.europa.eu/eurostat/statistics-explained/index.php/Government_expenditure_on_defence)
+:::
+
+### 1.2 Révision du SCN 2008 — la R&D militaire en FBCF
+
+Une évolution importante : depuis la révision du SCN en 2008, la **R&D militaire est comptabilisée en investissement (FBCF)** plutôt qu'en consommation intermédiaire. Cela a eu pour effet d'augmenter le PIB mesuré de plusieurs pays à bases de défense importantes.
+
+---
+
+## 2. Dépenses publiques de défense
+
+### 2.1 Les composantes des dépenses de défense
+
+| Composante | Description | % approx. France |
+|-----------|-------------|-----------------|
+| Personnel | Soldes, pensions, formation | ~40% |
+| Fonctionnement | Carburant, entretien, opérations | ~25% |
+| Équipement (investissement) | Armements, plateformes, systèmes | ~25% |
+| R&D | Recherche et développement | ~10% |
+
+: Décomposition indicative des dépenses de défense françaises {.striped}
+
+### 2.2 Le budget de défense en France
+
+::: {.callout-tip}
+## 💡 Exemple — Loi de programmation militaire (LPM) 2024–2030
+La LPM 2024–2030 prévoit une trajectoire budgétaire de **413 milliards d'euros** sur la période. Elle vise à atteindre l'objectif de 2% du PIB. C'est le cadre législatif qui planifie les dépenses de défense françaises sur plusieurs années.
+
+*Source : Ministère des Armées, 2023. [LPM 2024-2030](https://www.defense.gouv.fr)*
+:::
+
+---
+
+## 3. Politique budgétaire et défense
+
+### 3.1 Le multiplicateur keynésien des dépenses de défense
+
+Selon la théorie keynésienne, une augmentation des dépenses publiques de défense (ΔG) produit un effet multiplicateur sur le PIB :
+
+$$\Delta Y = \frac{1}{1-c(1-t)} \cdot \Delta G$$
+
+où :
+- $c$ = propension marginale à consommer
+- $t$ = taux d'imposition marginal
+- $\Delta G$ = variation des dépenses publiques de défense
+
+::: {.callout-caution}
+## ⚠️ Point critique — Le multiplicateur militaire est-il différent ?
+La littérature empirique montre que le **multiplicateur des dépenses de défense est généralement inférieur** à celui des dépenses civiles (éducation, santé). Les raisons incluent :
+- Plus grande proportion de biens importés dans les équipements militaires
+- Moindre effet d'entraînement sur la demande domestique de consommation
+- Effets d'éviction plus forts (crowding-out)
+
+Références : **Barro (1981)**, **Blanchard & Perotti (2002)**, **Ramey (2011)**.
+:::
+
+### 3.2 Effet d'éviction (*crowding-out*)
+
+L'augmentation des dépenses de défense peut évincer d'autres dépenses publiques ou privées :
+
+- **Éviction des dépenses sociales** : arbitrage entre "bouclier social" et "bouclier militaire"
+- **Éviction de l'investissement privé** : si le financement passe par emprunt → hausse des taux d'intérêt
+- **Éviction des capacités productives** : ingénieurs, techniciens, capital détournés du secteur civil
+
+---
+
+## 4. Défense, croissance et dette
+
+### 4.1 La relation empirique entre défense et croissance
+
+La relation entre dépenses de défense et croissance économique est l'une des plus débattues dans la littérature d'économie de la défense.
+
+::: {.callout-note}
+## 📖 Les trois hypothèses de Benoit (1973)
+L'économiste **Emile Benoit** (1973) a observé une corrélation *positive* entre dépenses de défense et croissance dans les pays en développement, suggérant que la défense pouvait avoir des **effets d'entraînement positifs** (formation du capital humain, infrastructure, R&D).
+
+Cette thèse a été fortement contestée par la littérature ultérieure.
+:::
+
+**Les résultats empiriques sont mixtes** :
+
+| Hypothèse | Implication | Auteurs représentatifs |
+|-----------|-------------|----------------------|
+| Défense → Croissance+ | Effets positifs via R&D, infrastructure | Benoit (1973) |
+| Défense → Croissance− | Éviction de l'investissement civil | Deger & Smith (1983) |
+| Pas de relation systématique | Résultats dépendants du contexte | Sandler & Hartley (1995) |
+
+: Relation défense-croissance dans la littérature économique {.striped}
+
+### 4.2 Défense et soutenabilité de la dette publique
+
+Les dépenses de défense s'inscrivent dans un contexte général de contraintes budgétaires :
+
+- La règle des **3% de déficit** et **60% de dette** (Traité de Maastricht) limite les marges de manœuvre
+- L'objectif OTAN des **2% du PIB** crée une pression supplémentaire sur les budgets
+- Des pays comme l'Allemagne ont dû réviser leurs règles budgétaires (*Schuldenbremse*) pour financer le réarmement
+
+---
+
+## 5. Arbitrages macroéconomiques : le débat "Guns vs Butter"
+
+### 5.1 La frontière des possibilités de production
+
+Le dilemme classique "canons vs beurre" (*guns vs butter*) illustre l'arbitrage fondamental entre dépenses militaires et biens civils dans une économie aux ressources limitées.
+
+```{=html}
+<div style="background:linear-gradient(135deg,rgba(26,58,92,0.04),rgba(45,106,159,0.06));border-radius:1rem;padding:2rem;margin:1.5rem 0;border:1px solid rgba(26,58,92,0.08);">
+  <h4 style="color:#1a3a5c;margin-bottom:1rem;">⚖️ Les arbitrages en pratique</h4>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;">
+    <div>
+      <strong style="color:#c0392b;">Arguments pour augmenter les dépenses de défense</strong>
+      <ul style="font-size:0.9rem;color:#4a5a68;margin-top:0.5rem;">
+        <li>Sécurité comme condition de la croissance</li>
+        <li>Retombées technologiques (dual use)</li>
+        <li>Emplois qualifiés dans l'industrie de défense</li>
+        <li>Obligation OTAN et crédibilité stratégique</li>
+      </ul>
+    </div>
+    <div>
+      <strong style="color:#2e7d52;">Arguments pour arbitrer en faveur des dépenses civiles</strong>
+      <ul style="font-size:0.9rem;color:#4a5a68;margin-top:0.5rem;">
+        <li>Multiplicateur civil plus élevé (éducation, santé)</li>
+        <li>Éviction de l'investissement productif</li>
+        <li>Melman (1974) : "Pentagon Capitalism" et déclin industriel US</li>
+        <li>Contrainte budgétaire et soutenabilité de la dette</li>
+      </ul>
+    </div>
+  </div>
+</div>
+```
+
+### 5.2 La position de Seymour Melman
+
+L'économiste américain **Seymour Melman** (1974) a soutenu que l'accumulation des dépenses militaires américaines avait conduit à un **déclassement de l'industrie civile** des États-Unis — un transfert massif de ressources (capital, ingénieurs, capacités productives) vers le secteur militaire au détriment de la compétitivité industrielle civile.
+
+::: {.callout-caution}
+## ⚠️ Point critique — La thèse Melman aujourd'hui
+Si la thèse de Melman a du crédit dans le contexte américain des années 1960–1980, elle est plus difficile à appliquer aux petites économies européennes dont le secteur de défense est bien plus limité (< 2% du PIB en général). En Europe, le problème n'est pas un excès de dépenses militaires mais plutôt leur fragmentation et leur inefficience.
+:::
+
+---
+
+## Synthèse
+
+::: {.callout-tip}
+## 📋 À retenir — Macroéconomie de la défense
+
+1. **La défense dans le PIB** : dépenses de personnel, fonctionnement et investissement (FBCF), classées en COFOG 02
+2. **Le multiplicateur militaire** est généralement plus faible que celui des dépenses sociales ou d'éducation
+3. **La relation défense-croissance** est empiriquement indéterminée : ni toujours positive, ni toujours négative
+4. **L'arbitrage guns vs butter** est réel mais dépend du contexte (taille de l'économie, niveau des dépenses, mode de financement)
+5. **La contrainte budgétaire européenne** (Maastricht + objectif OTAN) crée des tensions de politique économique concrètes
+:::
+
+## Lectures recommandées
+
+- **Smith, R.** (2009). *Military Economics*. Palgrave Macmillan. — Approche macroéconomique rigoureuse.
+- **Sandler, T. & Hartley, K.** (1995). *The Economics of Defense*. Cambridge UP. — Ch. 5–7 sur croissance et politique budgétaire.
+- **Melman, S.** (1974). *The Permanent War Economy*. Simon & Schuster.
+- **Benoit, E.** (1973). *Defense and Economic Growth in Developing Countries*. Lexington Books.
+- **Ramey, V.** (2011). "Identifying Government Spending Shocks: It's All in the Timing." *Quarterly Journal of Economics*, 126(1).

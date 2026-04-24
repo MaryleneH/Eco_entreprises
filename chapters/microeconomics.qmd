@@ -1,0 +1,220 @@
+---
+title: "Microéconomie de la défense"
+subtitle: "Marchés, défaillances, contrats et économie de l'armement"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+---
+
+```{=html}
+<div class="hero-badge" style="margin-top:1rem;">📉 Microéconomie &nbsp;·&nbsp; Mois 1, Semaines 1–3</div>
+```
+
+## Introduction : pourquoi une microéconomie spécifique à la défense ?
+
+La défense constitue un **cas limite** pour la théorie microéconomique standard. Les marchés de la défense ne fonctionnent pas comme les marchés ordinaires : l'État est à la fois le seul acheteur, le régulateur, et parfois le producteur. Les biens de défense cumulent les caractéristiques les plus complexes de l'économie publique.
+
+::: {.callout-note}
+## 📖 Définition — Bien de défense
+Un bien de défense est un bien ou service dont l'acquisition, la production ou l'utilisation est directement liée à la sécurité nationale. Il peut être matériel (armement, véhicules, munitions) ou immatériel (renseignement, cyberdéfense, formation militaire).
+:::
+
+---
+
+## 1. Offre et demande sur les marchés de défense
+
+### 1.1 La demande : un monopsone d'État
+
+Sur la plupart des marchés de défense, **l'État est le seul acheteur** (ou quasi-monopsone). Cette structure a des conséquences profondes :
+
+- L'État fixe les quantités et les spécifications techniques, pas le marché
+- Le prix résulte d'une **négociation contractuelle**, non d'un équilibre offre/demande
+- Les entreprises de défense adaptent leur production aux commandes étatiques
+
+::: {.callout-caution}
+## ⚠️ Point critique
+L'analogie avec un marché concurrentiel est trompeuse. Sur un marché d'armement, la "demande" est une décision politique et budgétaire, pas une fonction de prix. Un État peut décider d'augmenter sa commande de frégates sans que cela reflète une variation du "prix" des frégates au sens néoclassique.
+:::
+
+### 1.2 L'offre : oligopole concentré
+
+Du côté de l'offre, les industries de défense sont typiquement **oligopolistiques** :
+
+| Secteur | Caractéristiques | Exemples |
+|---------|-----------------|---------|
+| Aéronautique militaire | Duopole mondial de fait | Lockheed Martin, Airbus Defence |
+| Construction navale militaire | Oligopole national | Naval Group (FR), TKMS (DE) |
+| Missiles et munitions | Concentration élevée | MBDA (FR/UK/IT), Raytheon (US) |
+| Véhicules blindés | Quelques acteurs nationaux | Nexter (FR), Rheinmetall (DE) |
+
+: Structure d'offre dans les principaux secteurs de défense {.striped}
+
+---
+
+## 2. Biens publics et défense nationale
+
+### 2.1 Les caractéristiques d'un bien public pur
+
+La défense nationale est l'exemple canonique de **bien public pur** dans les manuels d'économie, avec deux propriétés fondamentales :
+
+::: {.callout-note}
+## 📖 Définition — Bien public pur
+Un bien public pur est :
+- **Non rival** : la consommation par un agent ne réduit pas la disponibilité pour les autres
+- **Non excluable** : il est impossible d'empêcher un agent d'en bénéficier, même s'il ne contribue pas à son financement
+
+La défense nationale satisfait (approximativement) ces deux critères.
+:::
+
+### 2.2 Le problème du passager clandestin
+
+La non-excluabilité génère le problème classique du **passager clandestin** (*free rider*) :
+- Si chaque individu peut profiter de la défense sans payer, personne n'a d'incitation à contribuer volontairement
+- **Conclusion** : la fourniture de la défense doit être assurée par l'État via la fiscalité obligatoire
+
+Au niveau international, ce problème se retrouve dans le débat sur le **partage du fardeau au sein de l'OTAN** : certains alliés bénéficient de la sécurité collective sans atteindre l'objectif des 2% du PIB.
+
+::: {.callout-tip}
+## 💡 À retenir
+Le problème du passager clandestin explique structurellement pourquoi il ne peut exister de marché privé de la défense nationale, et pourquoi le financement public (via l'impôt) est économiquement rationnel, pas seulement politique.
+:::
+
+---
+
+## 3. Défaillances de marché spécifiques à la défense
+
+### 3.1 Externalités et effets de débordement
+
+La production et l'utilisation d'armements génèrent des **externalités** de plusieurs types :
+
+- **Externalités négatives** : pollution, risques industriels, dommages collatéraux
+- **Externalités positives** : retombées technologiques (technologies duales), R&D militaire qui irrigue le civil (GPS, internet, micro-ondes...)
+
+::: {.callout-tip}
+## 💡 Exemple — Retombées technologiques militaires
+L'internet est né du réseau ARPANET financé par la DARPA (agence de recherche du Pentagone). Le GPS, initialement militaire, est aujourd'hui au cœur de l'économie numérique civile. Ces exemples illustrent les **externalités positives** de la R&D militaire. Mariana Mazzucato (2013) a théorisé ce rôle de l'État entrepreneurial.
+:::
+
+### 3.2 Information asymétrique et contrats de défense
+
+L'information asymétrique est particulièrement intense dans les marchés de défense :
+
+**Problèmes d'aléa moral** :
+- Une fois le contrat signé, l'entreprise peut réduire ses efforts de qualité ou d'innovation
+- L'État ne peut pas observer parfaitement l'effort réel du contractant
+
+**Problèmes de sélection adverse** :
+- Avant la signature, l'État ne connaît pas avec précision les coûts réels de l'entreprise
+- Les entreprises ont intérêt à sur-estimer leurs coûts dans les contrats à coûts remboursés
+
+::: {.callout-note}
+## 📖 Définition — Contrat à prix fixe vs contrat à coûts remboursés
+- **Contrat à prix fixe** : l'entreprise livre à un prix convenu ; supporte le risque de coûts plus élevés → forte incitation à l'efficacité, mais risque élevé pour le contractant
+- **Contrat à coûts remboursés** : l'État rembourse les coûts réels plus une marge ; le risque est porté par l'État → faible incitation à l'efficacité pour le contractant
+:::
+
+### 3.3 La théorie des contrats appliquée à la défense
+
+Jean **Tirole** (prix Nobel 2014) a développé les outils de la théorie des contrats qui permettent d'analyser la passation de marchés de défense :
+
+- Mécanismes de révélation des coûts
+- Contrats incitatifs pour aligner les intérêts
+- Régulation des monopoles naturels
+
+::: {.callout-caution}
+## ⚠️ Point critique — Les limites de la théorie des contrats dans la défense
+La théorie des contrats suppose des agents rationnels, des contrats complets et des tribunaux qui les font respecter. Dans la défense :
+- Les contrats sont souvent **incomplets** (impossibilité de prévoir toutes les contingences techniques)
+- La **sécurité nationale** complique les mécanismes de révélation (secret-défense)
+- La dépendance à un seul fournisseur (lock-in) réduit le pouvoir de négociation de l'État après la signature
+:::
+
+---
+
+## 4. Monopoles, oligopoles et pouvoir de marché
+
+### 4.1 Pourquoi des oligopoles dans la défense ?
+
+Plusieurs facteurs structurels expliquent la concentration dans l'industrie de défense :
+
+1. **Coûts fixes très élevés** (R&D, infrastructures) → économies d'échelle importantes
+2. **Exigences de qualification** et certifications nationales → barrières à l'entrée
+3. **Relations spécifiques** à long terme avec l'État acheteur → avantage des incumbents
+4. **Consolidation sectorielle** encouragée par les États pour préserver la BITD nationale
+
+### 4.2 Conséquences du pouvoir de marché
+
+La concentration crée des tensions entre :
+- **Efficience productive** (économies d'échelle, R&D centralisée)
+- **Risque de rente** (surprofits aux dépens du contribuable)
+- **Dépendance stratégique** (lock-in technologique, risque de défaillance du fournisseur unique)
+
+::: {.callout-tip}
+## 💡 Exemple — MBDA et le marché des missiles en Europe
+MBDA est une coentreprise entre Airbus, BAE Systems et Leonardo, et représente le leader européen des missiles. Ce quasi-monopole européen garantit des économies d'échelle et maintient une capacité industrielle stratégique, mais réduit la pression concurrentielle et peut conduire à des coûts d'acquisition élevés pour les États membres.
+:::
+
+---
+
+## 5. Marchés de la défense comme marchés imparfaits
+
+### 5.1 Récapitulatif des imperfections
+
+```{=html}
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1rem;margin:1.5rem 0;">
+  <div style="background:rgba(26,58,92,0.05);border-radius:0.75rem;padding:1.25rem;border-left:4px solid #1a3a5c;">
+    <div style="font-size:1.5rem;margin-bottom:0.5rem;">👑</div>
+    <strong>Monopsone</strong><br>
+    <span style="font-size:0.85rem;color:#6a7a88;">L'État est seul acheteur, ce qui déforme les signaux de prix et les incitations à l'efficience.</span>
+  </div>
+  <div style="background:rgba(232,160,32,0.06);border-radius:0.75rem;padding:1.25rem;border-left:4px solid #e8a020;">
+    <div style="font-size:1.5rem;margin-bottom:0.5rem;">🔒</div>
+    <strong>Barrières à l'entrée</strong><br>
+    <span style="font-size:0.85rem;color:#6a7a88;">Coûts fixes, qualifications, sécurité nationale : peu de nouveaux entrants sur les marchés stratégiques.</span>
+  </div>
+  <div style="background:rgba(192,57,43,0.05);border-radius:0.75rem;padding:1.25rem;border-left:4px solid #c0392b;">
+    <div style="font-size:1.5rem;margin-bottom:0.5rem;">🎭</div>
+    <strong>Asymétrie d'info.</strong><br>
+    <span style="font-size:0.85rem;color:#6a7a88;">Coûts réels, innovations possibles, efforts de qualité : l'État est en position d'infériorité informationnelle.</span>
+  </div>
+  <div style="background:rgba(46,125,82,0.05);border-radius:0.75rem;padding:1.25rem;border-left:4px solid #2e7d52;">
+    <div style="font-size:1.5rem;margin-bottom:0.5rem;">🌱</div>
+    <strong>Externalités</strong><br>
+    <span style="font-size:0.85rem;color:#6a7a88;">Retombées technologiques positives et externalités négatives (pollution, risques) non intégrées dans les prix.</span>
+  </div>
+</div>
+```
+
+### 5.2 Implications pour la politique d'achat de défense
+
+Ces imperfections justifient :
+- Des **mécanismes d'audit** et de contrôle des coûts des contractants
+- Des **contrats incitatifs** qui partagent le risque entre État et industrie
+- Des politiques de **diversification** des fournisseurs pour maintenir une pression concurrentielle
+- Un **contrôle parlementaire** renforcé des grands programmes d'armement
+
+---
+
+## Synthèse du module
+
+::: {.callout-tip}
+## 📋 À retenir — Les 5 points clés
+
+1. **La défense est un bien public** : non rival, non excluable → production par l'État via la fiscalité obligatoire
+2. **L'État est monopsone** : il ne "fixe" pas un prix mais négocie des contrats complexes
+3. **L'information asymétrique** génère aléa moral et sélection adverse → nécessité de contrats incitatifs
+4. **L'oligopole est structurel** dans la défense, pas une anomalie corrigeable par la concurrence
+5. **Les externalités technologiques** de la R&D militaire ont irrigué l'économie civile (GPS, internet, etc.)
+:::
+
+## Exercices du module
+
+→ Voir le module [Exercices](exercises.html#microeconomie) pour les exercices pratiques correspondants.
+
+## Lectures recommandées
+
+- **Sandler, T. & Hartley, K.** (1995). *The Economics of Defense*. Cambridge University Press. — Référence fondatrice, ch. 2–4.
+- **Tirole, J.** (1988). *The Theory of Industrial Organization*. MIT Press. — Partie II sur oligopoles.
+- **Hartley, K.** (2011). *The Economics of Defence Policy*. Routledge. — Accessible et centré sur la politique.
+- **Smith, R.** (2009). *Military Economics: The Interaction of Power and Money*. Palgrave. — Approche macroéconomique complémentaire.

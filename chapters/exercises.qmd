@@ -1,0 +1,240 @@
+---
+title: "Exercices"
+subtitle: "Exercices par module — conceptuels, données, comparaisons et dissertations"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+---
+
+```{=html}
+<div class="hero-badge" style="margin-top:1rem;">✏️ Exercices &nbsp;·&nbsp; Tous modules</div>
+```
+
+## Comment utiliser ce module
+
+Ce module regroupe les exercices de l'ensemble de la formation. Chaque série d'exercices est associée à un module thématique. Les exercices sont classés par type :
+
+```{=html}
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1rem;margin:1.5rem 0;">
+  <div style="background:rgba(26,58,92,0.06);border-radius:0.75rem;padding:1.25rem;border-left:4px solid #1a3a5c;">
+    <div style="font-size:1.4rem;margin-bottom:0.5rem;">💡</div>
+    <strong>Conceptuels</strong><br>
+    <span style="font-size:0.82rem;color:#6a7a88;">Comprendre et expliquer les concepts clés</span>
+  </div>
+  <div style="background:rgba(45,106,159,0.06);border-radius:0.75rem;padding:1.25rem;border-left:4px solid #2d6a9f;">
+    <div style="font-size:1.4rem;margin-bottom:0.5rem;">📊</div>
+    <strong>Données</strong><br>
+    <span style="font-size:0.82rem;color:#6a7a88;">Manipuler et analyser des jeux de données réels</span>
+  </div>
+  <div style="background:rgba(232,160,32,0.08);border-radius:0.75rem;padding:1.25rem;border-left:4px solid #e8a020;">
+    <div style="font-size:1.4rem;margin-bottom:0.5rem;">🔍</div>
+    <strong>Comparaison de sources</strong><br>
+    <span style="font-size:0.82rem;color:#6a7a88;">Croiser et évaluer des sources différentes</span>
+  </div>
+  <div style="background:rgba(46,125,82,0.06);border-radius:0.75rem;padding:1.25rem;border-left:4px solid #2e7d52;">
+    <div style="font-size:1.4rem;margin-bottom:0.5rem;">📝</div>
+    <strong>Dissertation</strong><br>
+    <span style="font-size:0.82rem;color:#6a7a88;">Questions de synthèse et d'analyse</span>
+  </div>
+</div>
+```
+
+---
+
+## Module 1 — Microéconomie de la défense {#microeconomie}
+
+### Exercices conceptuels
+
+::: {.callout-note}
+## ✏️ Exercice M1-C1 — Bien public et défense
+**Question** : La défense nationale est souvent présentée comme un "bien public pur". 
+
+a) Définissez les deux caractéristiques d'un bien public pur.
+b) Dans quelle mesure la défense nationale satisfait-elle ces deux critères ? Donnez des arguments pour et contre.
+c) Pourquoi ces propriétés justifient-elles le financement public de la défense ? Quel problème d'allocation inefficiente serait-on susceptible d'observer en l'absence d'intervention publique ?
+:::
+
+::: {.callout-note}
+## ✏️ Exercice M1-C2 — Monopsone et pouvoir de marché
+**Question** :
+a) Définissez le monopsone. En quoi l'État acheteur d'armement est-il assimilable à un monopsone ?
+b) Quelles sont les conséquences du pouvoir de monopsone sur le prix, la quantité et le profit des entreprises dans un marché d'armement ?
+c) Comparez la situation d'un monopsone avec celle d'un marché concurrentiel pour un même bien.
+:::
+
+### Exercices sur données
+
+::: {.callout-note}
+## ✏️ Exercice M1-D1 — Structure de marché dans la défense
+**Exercice de recherche**
+
+Sur le site de la **Direction générale de l'armement (DGA)** ou dans les rapports annuels des entreprises :
+
+1. Identifiez les principaux fournisseurs de l'État français dans au moins trois segments de l'armement (ex. : missiles, avions de combat, véhicules blindés).
+2. Calculez un indicateur de concentration de marché (part de marché du leader, indice HHI si les données le permettent).
+3. Interprétez : ces marchés sont-ils concurrentiels, oligopolistiques ou monopolistiques ?
+
+*Sources : DGA, rapports annuels Thales/Airbus/Dassault, rapport annuel du Parlement sur les exportations d'armement.*
+:::
+
+### Question de dissertation
+
+::: {.callout-note}
+## ✏️ Exercice M1-Q1 — Dissertation courte (2 pages)
+**Sujet** : "Les marchés de l'armement sont des marchés imparfaits par nature, et non par défaut." Discutez en mobilisant les concepts de bien public, de monopsone, d'information asymétrique et d'oligopole.
+
+*Durée indicative : 2 heures. Longueur : 1 500–2 000 mots.*
+:::
+
+---
+
+## Module 2 — Macroéconomie de la défense
+
+### Exercices conceptuels
+
+::: {.callout-note}
+## ✏️ Exercice M2-C1 — PIB et dépenses de défense
+**Question** :
+a) Comment les dépenses de défense sont-elles comptabilisées dans le PIB selon la comptabilité nationale (SCN 2008) ? Distinguez les différentes composantes.
+b) Quelle est la classification COFOG des dépenses publiques ? À quelle division correspond la défense ?
+c) Pourquoi la révision du SCN 2008 concernant la R&D militaire a-t-elle augmenté le PIB de plusieurs pays ?
+:::
+
+::: {.callout-note}
+## ✏️ Exercice M2-C2 — Le débat guns vs butter
+**Question** : Présentez le dilemme économique "canons contre beurre". Quels sont les arguments économiques pour et contre une augmentation des dépenses de défense ? Citez au moins deux auteurs aux positions opposées.
+:::
+
+### Exercices sur données
+
+::: {.callout-note}
+## ✏️ Exercice M2-D1 — Données COFOG
+**Exercice** :
+
+Sur le portail Eurostat :
+
+1. Téléchargez les données COFOG 02 (Défense) pour la France, l'Allemagne, l'Italie et la Pologne pour les années 2015–2022.
+   → Base : `GOV_10A_EXP` sur [Eurostat](https://ec.europa.eu/eurostat/data/database)
+2. Calculez la part de la défense dans les dépenses publiques totales pour chaque pays.
+3. Représentez graphiquement l'évolution de cette part sur la période.
+4. Commentez les différences entre pays et les tendances observées depuis 2022.
+:::
+
+### Question de dissertation
+
+::: {.callout-note}
+## ✏️ Exercice M2-Q1 — Dissertation (2 pages)
+**Sujet** : "Les dépenses de défense sont-elles un investissement ou une charge pour l'économie ?" Discutez en mobilisant les notions de multiplicateur keynésien, d'effet d'éviction et de retombées technologiques.
+:::
+
+---
+
+## Module 3 — Statistiques d'entreprises et défense
+
+### Exercices conceptuels
+
+::: {.callout-note}
+## ✏️ Exercice M3-C1 — Les unités statistiques
+**Question** :
+a) Distinguez entreprise, unité légale, établissement et groupe d'entreprises.
+b) Illustrez ces distinctions à l'aide de l'exemple d'un grand groupe de défense de votre choix.
+c) Pourquoi cette distinction est-elle particulièrement importante pour analyser le secteur défense ?
+:::
+
+::: {.callout-note}
+## ✏️ Exercice M3-C2 — Code NAF et secteur défense
+**Question** :
+a) Listez au moins cinq codes NAF/NACE pertinents pour identifier des entreprises du secteur défense.
+b) Quelles sont les limites de cette approche pour délimiter le périmètre de la BITD ?
+c) Proposez une méthode alternative pour identifier les entreprises dont l'activité est majoritairement défense.
+:::
+
+### Exercices sur données
+
+::: {.callout-note}
+## ✏️ Exercice M3-D1 — Exploration du fichier SIRENE
+**Exercice pratique**
+
+Sur le portail [data.gouv.fr](https://www.data.gouv.fr/fr/datasets/base-sirene-des-entreprises-et-de-leurs-etablissements-siren-siret/) :
+
+1. Téléchargez un extrait du fichier SIRENE.
+2. Filtrez les unités légales avec le code APE `25.40Z` (fabrication d'armes et munitions).
+3. Analysez la distribution géographique (par département), la taille (tranche d'effectif) et la forme juridique.
+4. Commentez : qu'apprenez-vous sur la structure du segment "armement direct" de la BITD française ?
+:::
+
+---
+
+## Module 4 — Institutions et sources de données
+
+### Exercice de comparaison de sources
+
+::: {.callout-note}
+## ✏️ Exercice M4-CS1 — Comparer INSEE et Eurostat
+**Exercice**
+
+Pour les dépenses de défense de la France en 2021 :
+
+1. Trouvez la valeur des dépenses de défense françaises dans les **comptes nationaux INSEE** (dépenses des administrations publiques, fonction défense).
+2. Trouvez la même donnée dans la base **COFOG Eurostat** (GOV_10A_EXP, division 02, France).
+3. Comparez les deux valeurs. Sont-elles identiques ? Si non, pourquoi ?
+4. Trouvez la valeur déclarée par la France à l'**OTAN** pour la même année.
+5. Comparez les trois valeurs et expliquez les différences méthodologiques.
+:::
+
+::: {.callout-note}
+## ✏️ Exercice M4-CS2 — SIPRI vs OTAN
+**Exercice de comparaison critique**
+
+Pour un pays membre de l'OTAN de votre choix (ex. : Allemagne ou Pologne) :
+
+1. Relevez les dépenses militaires selon **SIPRI** (MILEX database) pour 2015–2022.
+2. Relevez les mêmes données selon les **statistiques OTAN**.
+3. Calculez les écarts absolus et relatifs.
+4. Proposez une explication des différences observées en vous appuyant sur les définitions méthodologiques de chaque source.
+:::
+
+---
+
+## Module 5 — OTAN et dépenses de défense
+
+### Exercice sur données
+
+::: {.callout-note}
+## ✏️ Exercice M5-D1 — Analyse de l'objectif des 2%
+**Exercice**
+
+À partir des statistiques de dépenses de défense OTAN publiées chaque année ([NATO stats](https://www.nato.int/cps/en/natohq/topics_49198.htm)) :
+
+1. Identifiez quels pays membres atteignent l'objectif des 2% du PIB en 2023.
+2. Calculez les dépenses absolues (en milliards de dollars) correspondant aux 2% pour chaque pays.
+3. Classez les pays : d'abord selon le % du PIB, puis selon les dépenses absolues. Les deux classements coïncident-ils ?
+4. Discutez : le ratio % du PIB est-il un bon indicateur de la contribution à la défense collective ?
+:::
+
+---
+
+## Module 6 — Industrie de défense
+
+### Exercice de dissertation
+
+::: {.callout-note}
+## ✏️ Exercice M6-Q1 — Autonomie stratégique européenne
+**Sujet** : "L'autonomie stratégique européenne en matière de défense est-elle économiquement réaliste ?" Discutez en mobilisant les notions d'économies d'échelle, de coûts de R&D, d'interopérabilité OTAN et de chaînes d'approvisionnement globales.
+:::
+
+---
+
+## Jalons du projet final
+
+::: {.callout-tip}
+## 🎯 Calendrier des jalons du projet
+
+**Semaine 8** — Jalon 1 : Remise du sujet et des premières sources identifiées  
+**Semaine 10** — Jalon 2 : Plan détaillé et première analyse des données  
+**Semaine 11** — Jalon 3 : Ébauche complète (80% du contenu)  
+**Semaine 12** — Livraison finale du projet
+
+→ Voir le module [Projet final](final-project.html) pour le cahier des charges complet.
+:::
