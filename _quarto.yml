@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: _site
+  resources:
+    - scripts.js
 
 website:
   title: "Économie de la Défense"
@@ -53,7 +55,7 @@ format:
       - cosmo
       - styles.scss
     css: []
-    include-after-body: scripts.js
+    include-after-body: includes/after-body.html
     smooth-scroll: true
     toc: true
     toc-depth: 3
