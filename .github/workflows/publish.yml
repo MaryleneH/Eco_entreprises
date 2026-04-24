@@ -23,11 +23,20 @@ jobs:
 
       - name: Setup Quarto
         uses: quarto-dev/quarto-actions/setup@v2
-        with:
-          version: pre-release
 
       - name: Render Quarto website
         run: quarto render
+
+      - name: Verify output structure
+        run: |
+          echo "=== _site contents ==="
+          ls -la _site/
+          echo "=== site_libs contents ==="
+          ls -la _site/site_libs/
+          test -f _site/index.html     || (echo "ERROR: _site/index.html missing!" && exit 1)
+          test -d _site/site_libs      || (echo "ERROR: _site/site_libs/ missing!" && exit 1)
+          test -f _site/.nojekyll      || (echo "ERROR: _site/.nojekyll missing!" && exit 1)
+          echo "All required files present."
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
