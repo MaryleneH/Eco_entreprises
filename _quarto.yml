@@ -3,6 +3,7 @@ project:
   output-dir: _site
   resources:
     - scripts.js
+    - assets/
 
 website:
   site-url: "https://maryleneh.github.io/Eco_entreprises/"
