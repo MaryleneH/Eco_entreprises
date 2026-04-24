@@ -5,6 +5,7 @@ project:
     - scripts.js
 
 website:
+  site-url: "https://maryleneh.github.io/Eco_entreprises/"
   title: "Économie de la Défense"
   description: "Formation professionnelle en économie de la défense, statistiques d'entreprises et sources officielles"
   favicon: "assets/favicon.ico"
