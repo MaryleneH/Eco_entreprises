@@ -1,0 +1,193 @@
+---
+title: "OTAN et dépenses de défense"
+subtitle: "Données OTAN, objectif des 2%, partage du fardeau et comparaisons internationales"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+---
+
+```{=html}
+<div class="hero-badge" style="margin-top:1rem;">🛡️ OTAN &nbsp;·&nbsp; Mois 2, Semaine 7–8</div>
+```
+
+## Introduction
+
+L'OTAN (Organisation du Traité de l'Atlantique Nord) publie chaque année des statistiques sur les dépenses de défense de ses 32 membres. Ces données sont au cœur des débats politiques sur le **partage du fardeau** et l'objectif des **2% du PIB**. Ce module analyse ces données avec un regard critique sur leur production, leur interprétation et leurs limites.
+
+::: {.callout-note}
+## 📖 L'objectif des 2% — Un peu d'histoire
+L'objectif de consacrer **2% du PIB** aux dépenses de défense a été formalisé au sommet de l'OTAN au Pays de Galles en **2014**, après l'annexion de la Crimée par la Russie. Les pays membres se sont engagés à atteindre cet objectif **d'ici 2024**.
+
+En 2024, selon les données OTAN, **23 membres sur 32** auraient atteint ou dépassé cet objectif — un record historique.
+
+*Source : OTAN, communiqué de presse juin 2024*
+:::
+
+---
+
+## 1. La méthodologie de calcul des dépenses OTAN
+
+### 1.1 Qu'est-ce que l'OTAN mesure ?
+
+L'OTAN utilise sa propre définition des dépenses de défense, qui **diffère des définitions nationales** et de COFOG 02 :
+
+**Inclus dans les dépenses OTAN :**
+- Dépenses des forces armées nationales en activité
+- Pensions des militaires à la retraite
+- Gendarmerie (en France) quand elle a une mission militaire
+- Agences de renseignement militaire
+- R&D militaire
+- Dépenses des autres ministères directement liées à la défense
+
+**Exclu des dépenses OTAN :**
+- Forces de police civile (même armées)
+- Dépenses de sécurité intérieure non militaires
+- Services de renseignement civils
+
+### 1.2 Le calcul du ratio dépenses/PIB
+
+$$\text{Part défense} = \frac{\text{Dépenses de défense (définition OTAN)}}{\text{PIB en prix courants}} \times 100$$
+
+::: {.callout-caution}
+## ⚠️ Biais du ratio PIB
+Le ratio dépenses/PIB **favorise les petits pays** : un pays avec un PIB faible peut atteindre les 2% même avec des dépenses absolues réduites. Inversement, un pays avec un PIB élevé comme l'Allemagne doit consacrer des sommes absolues considérables pour atteindre le seuil.
+
+**Exemple illustratif** : Si l'Allemagne (PIB ~4 000 Mds €) consacre 2% de son PIB à la défense, cela représente 80 Mds €. Si la Lettonie (PIB ~40 Mds €) consacre 3% de son PIB, cela ne représente que 1,2 Mds €. La Lettonie "dépasse" l'objectif mais contribue proportionnellement peu à la capacité collective de l'Alliance.
+:::
+
+---
+
+## 2. Le débat sur le partage du fardeau
+
+### 2.1 La logique économique du partage du fardeau
+
+Le concept de **partage du fardeau** (*burden sharing*) est directement lié à la nature de bien public de la défense collective. Todd **Sandler** et John **Forbes** (1980) ont appliqué la théorie des biens publics à l'OTAN :
+
+- La défense collective est un **bien public** : non rival, non excluable
+- Chaque membre bénéficie de la sécurité collective même s'il contribue peu
+- Il y a donc un **problème de passager clandestin** structurel au sein de l'alliance
+
+::: {.callout-tip}
+## 💡 Exploitation vs joint product model
+Sandler & Forbes (1980) ont modélisé deux cas extrêmes :
+1. **Modèle d'exploitation pur** : les petits membres profitent des dépenses des grands (États-Unis) → sous-contribution des petits
+2. **Joint product model** : certaines dépenses de défense génèrent à la fois des biens publics collectifs ET des bénéfices nationaux (souveraineté, influence, emplois) → moins de passager clandestin
+
+La réalité de l'OTAN se situe entre ces deux extrêmes.
+:::
+
+### 2.2 Les positions des principaux membres
+
+```{=html}
+<div style="overflow-x:auto;margin:1.5rem 0;">
+<table>
+<thead>
+<tr>
+  <th>Pays</th>
+  <th>Dépenses/PIB (2023, estimé)</th>
+  <th>Tendance</th>
+  <th>Contexte</th>
+</tr>
+</thead>
+<tbody>
+<tr><td><strong>États-Unis</strong></td><td>~3,5%</td><td>→ Stable</td><td>Puissance mondiale, budget absolu dominant</td></tr>
+<tr><td><strong>Pologne</strong></td><td>~4%</td><td>↑ Fort</td><td>Frontière avec la Russie et la Biélorussie</td></tr>
+<tr><td><strong>Royaume-Uni</strong></td><td>~2,3%</td><td>↑ Léger</td><td>Post-Brexit, maintien statut P5</td></tr>
+<tr><td><strong>France</strong></td><td>~2,1%</td><td>↑ LPM 2024-30</td><td>LPM prévoit montée en puissance</td></tr>
+<tr><td><strong>Allemagne</strong></td><td>~2,1%</td><td>↑ Fort</td><td>Zeitenwende — rupture stratégique post-2022</td></tr>
+<tr><td><strong>Italie</strong></td><td>~1,5%</td><td>→ Lent</td><td>Contraintes budgétaires et dette élevée</td></tr>
+<tr><td><strong>Espagne</strong></td><td>~1,3%</td><td>↑ Engagé</td><td>Engagement politique d'atteindre 2%</td></tr>
+</tbody>
+</table>
+</div>
+<p style="font-size:0.75rem;color:#8a9aaa;margin-top:-0.5rem;">* Chiffres indicatifs basés sur les publications OTAN de 2023-2024. À vérifier auprès des sources officielles OTAN.</p>
+```
+
+---
+
+## 3. Limites des comparaisons internationales
+
+### 3.1 Le problème des définitions divergentes
+
+Les comparaisons de dépenses de défense entre pays se heurtent à plusieurs obstacles :
+
+::: {.callout-caution}
+## ⚠️ Quatre sources d'incomparabilité
+
+**1. Définitions différentes de "défense"**
+Certains pays incluent la gendarmerie, les forces paramilitaires ou les services de renseignement dans leurs dépenses déclarées à l'OTAN, d'autres non.
+
+**2. Prix relatifs (Parités de Pouvoir d'Achat)**
+Un soldat dans un pays à bas salaires "coûte" moins en euros courants mais fournit le même service militaire. Les comparaisons en dollars courants surestiment l'avantage des pays riches.
+
+**3. Structures des forces armées**
+Un pays avec un arsenal nucléaire (France, Royaume-Uni) a une structure de dépenses très différente d'un pays sans capacité nucléaire. Les missiles nucléaires ne "remplacent" pas les brigades blindées.
+
+**4. Dépenses passées et stock de capital militaire**
+Le stock d'équipements militaires accumulés par le passé ne figure pas dans le ratio annuel. Un pays qui a fortement investi il y a 10 ans peut maintenant "sous-dépenser" tout en disposant de capacités opérationnelles supérieures.
+:::
+
+### 3.2 SIPRI vs OTAN : deux sources, deux méthodes
+
+Le **Stockholm International Peace Research Institute (SIPRI)** publie des données indépendantes sur les dépenses militaires mondiales :
+
+| Critère | SIPRI | OTAN |
+|---------|-------|------|
+| Périmètre géographique | Mondial (130+ pays) | 32 membres OTAN |
+| Définition de "défense" | Plus large (forces paramilitaires, sécurité) | Stricte, axée sur les forces armées |
+| Sources | Multiples (gouvernements, presse, think tanks) | Données officielles transmises par les membres |
+| Indépendance | Totale (ONG académique) | Organisation politique |
+
+::: {.callout-tip}
+## 💡 Recommandation méthodologique
+Pour des comparaisons mondiales ou des pays hors OTAN → **SIPRI**  
+Pour des analyses intra-OTAN et le benchmark des 2% → **OTAN**  
+Pour des comparaisons intra-UE harmonisées → **Eurostat COFOG 02**
+
+Ne jamais mélanger des chiffres issus de sources différentes sans vérifier leur comparabilité.
+:::
+
+---
+
+## 4. Au-delà des 2% : vers quels indicateurs ?
+
+### 4.1 La critique de l'indicateur "2% du PIB"
+
+L'objectif des 2% est une **règle simple mais imparfaite** :
+
+- Il mesure un **input** (argent dépensé), pas un **output** (capacités militaires réelles)
+- Il peut être atteint par des dépenses inefficaces (gonflage des pensions, sureffectifs)
+- Il ignore la **qualité** et la **pertinence opérationnelle** des dépenses
+- Il favorise les grands pays en termes de contribution absolue
+
+### 4.2 Les indicateurs complémentaires de l'OTAN
+
+L'OTAN a introduit d'autres indicateurs pour compléter le ratio 2% :
+
+- **20% pour l'équipement** : au moins 20% des dépenses de défense doivent aller à l'équipement et à la R&D
+- **Investissement dans les capacités** : contributions aux opérations et exercices OTAN
+- **Objectifs de capacités** (*Defence Planning Process*) : objectifs qualitatifs de capacités militaires
+
+---
+
+## Synthèse
+
+::: {.callout-tip}
+## 📋 À retenir — OTAN et dépenses de défense
+
+1. **L'objectif des 2%** est une convention politique, pas un seuil économiquement fondé
+2. **La méthodologie OTAN** diffère de COFOG (Eurostat) et des définitions nationales — ne pas confondre
+3. **Le problème du passager clandestin** est structurel dans toute alliance de défense collective
+4. **SIPRI et OTAN** mesurent des choses différentes — à utiliser selon la question posée
+5. **Les comparaisons en % du PIB** sont trompeuses sans tenir compte des PIB absolus, des PPA et des structures de forces
+
+:::
+
+## Lectures recommandées
+
+- **Sandler, T. & Forbes, J.** (1980). "Burden Sharing, Strategy, and the Design of NATO." *Economic Inquiry*, 18.
+- **Hartley, K.** (2011). *The Economics of Defence Policy*. Routledge. — Ch. 5 sur le partage du fardeau.
+- **OTAN** : [Defence Expenditure of NATO Countries (2014-2024)](https://www.nato.int/cps/en/natohq/news_226525.htm)
+- **SIPRI** : [Military Expenditure Database](https://www.sipri.org/databases/milex)
+- **Fontanel, J.** (2004). *Économie politique de la sécurité internationale*. L'Harmattan.

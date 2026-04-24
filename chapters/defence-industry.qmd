@@ -1,0 +1,192 @@
+---
+title: "Industrie de défense et économie de l'armement"
+subtitle: "BITD, marchés publics, innovation, souveraineté et autonomie stratégique"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+---
+
+```{=html}
+<div class="hero-badge" style="margin-top:1rem;">🏭 Industrie &nbsp;·&nbsp; Mois 3, Semaines 9–10</div>
+```
+
+## Introduction
+
+L'industrie de défense est un secteur hybride, à la frontière entre le marché et l'État. Elle produit des biens stratégiques, souvent classifiés, destinés à un acheteur unique (l'État), dans un contexte de secrets industriels et de contraintes géopolitiques. Ce module analyse les fondements économiques de la Base Industrielle et Technologique de Défense (BITD), les dynamiques d'innovation et les enjeux de souveraineté.
+
+::: {.callout-note}
+## 📖 Définition — BITD
+La **Base Industrielle et Technologique de Défense (BITD)** désigne l'ensemble des entreprises, laboratoires de recherche et savoir-faire industriels nécessaires à la conception, la production et le maintien en condition opérationnelle des équipements militaires. En France, la BITD comprend des grands groupes (Thales, Airbus Defence, MBDA, Naval Group, Nexter/KNDS, Safran) et un tissu dense de PME et d'ETI.
+:::
+
+---
+
+## 1. Structure de la BITD française et européenne
+
+### 1.1 Les grands acteurs de la BITD française
+
+```{=html}
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1rem;margin:1.5rem 0;">
+  <div style="background:#fff;border-radius:0.75rem;padding:1.5rem;border:1px solid rgba(26,58,92,0.1);border-left:4px solid #1a3a5c;">
+    <strong style="color:#1a3a5c;">Thales</strong><br>
+    <span style="font-size:0.82rem;color:#6a7a88;">Électronique de défense, systèmes de capteurs, cybersécurité, transport. Fortement international.</span>
+  </div>
+  <div style="background:#fff;border-radius:0.75rem;padding:1.5rem;border:1px solid rgba(26,58,92,0.1);border-left:4px solid #2d6a9f;">
+    <strong style="color:#1a3a5c;">Airbus Defence & Space</strong><br>
+    <span style="font-size:0.82rem;color:#6a7a88;">Aéronefs militaires, satellites, espace, hélicoptères (Airbus Helicopters). Entité européenne.</span>
+  </div>
+  <div style="background:#fff;border-radius:0.75rem;padding:1.5rem;border:1px solid rgba(26,58,92,0.1);border-left:4px solid #e8a020;">
+    <strong style="color:#1a3a5c;">MBDA</strong><br>
+    <span style="font-size:0.82rem;color:#6a7a88;">Missiles et systèmes de missiles. JV franco-britannique-italienne. Quasi-monopole européen.</span>
+  </div>
+  <div style="background:#fff;border-radius:0.75rem;padding:1.5rem;border:1px solid rgba(26,58,92,0.1);border-left:4px solid #c0392b;">
+    <strong style="color:#1a3a5c;">Naval Group</strong><br>
+    <span style="font-size:0.82rem;color:#6a7a88;">Construction navale militaire. Sous-marins, frégates, porte-avions. Actionnaire : État français et Thales.</span>
+  </div>
+  <div style="background:#fff;border-radius:0.75rem;padding:1.5rem;border:1px solid rgba(26,58,92,0.1);border-left:4px solid #2e7d52;">
+    <strong style="color:#1a3a5c;">Safran</strong><br>
+    <span style="font-size:0.82rem;color:#6a7a88;">Motoriste aéronautique (militaire et civil), optronique, navigation. Fortement dual.</span>
+  </div>
+  <div style="background:#fff;border-radius:0.75rem;padding:1.5rem;border:1px solid rgba(26,58,92,0.1);border-left:4px solid #8e44ad;">
+    <strong style="color:#1a3a5c;">Dassault Aviation</strong><br>
+    <span style="font-size:0.82rem;color:#6a7a88;">Avions de combat (Rafale) et avions d'affaires (Falcon). Champion national de l'aéronautique militaire.</span>
+  </div>
+</div>
+```
+
+### 1.2 La structure de sous-traitance
+
+La BITD ne se limite pas aux grands groupes. Elle comprend un réseau dense de **PME et ETI** qui fournissent des composants, des matériaux, des services d'ingénierie et des systèmes embarqués. Ce tissu sous-traitant est vulnérable aux consolidations et aux délocalisations.
+
+---
+
+## 2. Marchés publics de défense
+
+### 2.1 Les spécificités de la commande publique de défense
+
+La **passation des marchés publics de défense** déroge partiellement aux règles générales du droit de la commande publique :
+
+::: {.callout-note}
+## 📖 Directive européenne 2009/81/CE
+La **directive 2009/81/CE** sur les marchés publics de défense et de sécurité permet des exceptions à la mise en concurrence classique pour des motifs de sécurité nationale. Elle autorise notamment :
+- La passation de marchés sans publicité ni mise en concurrence pour des raisons de secret
+- Des procédures négociées pour des équipements très spécialisés
+- La protection des informations sensibles tout au long de la procédure
+
+→ Source : [EUR-Lex, Directive 2009/81/CE](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32009L0081)
+:::
+
+### 2.2 Types de contrats et incitations
+
+| Type de contrat | Allocation du risque | Incitation à l'efficience |
+|----------------|---------------------|--------------------------|
+| Prix ferme | Contractor | Forte (économie sur coûts = profit) |
+| Prix révisable | Partagée | Modérée |
+| Coûts remboursés + marge fixe | Acheteur public | Faible (aléa moral) |
+| Coûts remboursés + marge incitative | Partagée | Modérée à forte |
+
+---
+
+## 3. Innovation et technologies duales
+
+### 3.1 Le rôle historique de la R&D militaire dans l'innovation civile
+
+L'histoire économique et technologique montre que la R&D militaire a joué un rôle majeur dans l'innovation civile :
+
+::: {.callout-tip}
+## 💡 Exemples de technologies duales (dual-use)
+- **Internet** (ARPANET, DARPA) → infrastructure numérique mondiale
+- **GPS** (US Air Force) → navigation civile, logistique, agriculture de précision
+- **Micro-ondes** (radar militaire) → électroménager
+- **Drones** (usage militaire) → agriculture, livraison, inspection d'infrastructure
+- **Matériaux composites** (industrie aéronautique militaire) → sport, automobile, construction
+- **IA et machine learning** (financements DARPA) → tech civile (reconnaissance d'image, NLP)
+:::
+
+### 3.2 La thèse de Mariana Mazzucato sur l'État entrepreneur
+
+**Mariana Mazzucato** (*The Entrepreneurial State*, 2013) a théorisé que l'État n'est pas seulement un correcteur de défaillances de marché mais un **acteur entrepreneurial** qui prend les risques que le secteur privé n'accepte pas, notamment en finançant la recherche fondamentale et les technologies émergentes.
+
+::: {.callout-caution}
+## ⚠️ Point critique — Limites de la thèse Mazzucato dans la défense
+Si la thèse de Mazzucato est convaincante pour la R&D civile et les grandes transitions technologiques, elle doit être nuancée dans le secteur défense :
+- Les retombées civiles des investissements militaires sont **souvent surestimées** ex-post et difficiles à prévoir ex-ante
+- Le processus de transfert technologique militaire → civil est **lent, coûteux et incertain**
+- Les dépenses militaires actuelles (systèmes d'armes conventionnels) génèrent moins de retombées que les investissements dans les technologies émergentes (IA, cyber, espace)
+:::
+
+---
+
+## 4. Souveraineté industrielle et autonomie stratégique
+
+### 4.1 Le concept d'autonomie stratégique européenne
+
+L'**autonomie stratégique européenne** désigne la capacité de l'UE à décider et agir de manière indépendante en matière de défense, sans dépendance excessive envers des puissances extérieures (notamment les États-Unis).
+
+Cette notion a une **dimension industrielle forte** :
+- Capacité à concevoir et produire des équipements militaires sans dépendance technologique étrangère
+- Maîtrise des chaînes d'approvisionnement critiques
+- Accès aux matières premières stratégiques (terres rares, composants électroniques)
+
+::: {.callout-note}
+## 📖 Les initiatives européennes de défense
+- **Fonds européen de la défense (FED)** : 7,9 Mds € sur 2021–2027 pour la R&D et l'industrie de défense
+- **EDIRPA/ASAP** : instruments d'urgence post-Ukraine
+- **CARD** (Coordinated Annual Review on Defence) : coordination des plans d'équipement
+- **PESCO** (Permanent Structured Cooperation) : 60+ projets de coopération structurée
+
+→ Source : [Agence européenne de défense (AED)](https://www.eda.europa.eu)
+:::
+
+### 4.2 Les tensions entre autonomie et interdépendance
+
+L'autonomie stratégique est en tension avec plusieurs réalités économiques :
+
+- **Économies d'échelle** : les petits marchés nationaux ne permettent pas d'atteindre les volumes nécessaires à l'amortissement des coûts de développement
+- **Interdépendance OTAN** : les équipements interopérables avec les alliés supposent une standardisation, parfois américaine (F-35, munitions STANAG)
+- **Chaînes d'approvisionnement globales** : même les industries de défense "nationales" dépendent de composants importés
+
+---
+
+## 5. Exportations d'armement
+
+### 5.1 Économie des exportations d'armement
+
+Les exportations d'armement servent plusieurs objectifs :
+- **Économique** : partage des coûts de R&D et de production avec des clients étrangers
+- **Industriel** : maintien des capacités industrielles entre deux commandes nationales
+- **Géopolitique** : renforcement des partenariats stratégiques
+- **Budgétaire** : réduction du coût unitaire pour les forces nationales
+
+::: {.callout-caution}
+## ⚠️ Point critique — Les dilemmes des exportations d'armement
+Les exportations d'armement soulèvent des questions éthiques et stratégiques complexes :
+- **Risque de retournement** : des armes exportées peuvent être utilisées contre les intérêts de l'exportateur
+- **Droits humains** : certains clients utilisent les armes dans des conflits internes ou contre des populations civiles
+- **Concurrence** : les pays exportateurs (France, Allemagne, USA, Russie, Chine) se font concurrence, parfois au sein d'alliances
+
+La France est régulièrement parmi les 5 premiers exportateurs mondiaux d'armement (source : SIPRI).
+:::
+
+---
+
+## Synthèse
+
+::: {.callout-tip}
+## 📋 À retenir — Industrie de défense
+
+1. **La BITD** est un écosystème pyramidal : grands groupes + réseau de PME spécialisées
+2. **La commande publique de défense** déroge aux règles classiques pour des raisons de sécurité nationale
+3. **La R&D militaire** a historiquement généré des retombées civiles (dual-use), mais ces effets sont incertains
+4. **L'autonomie stratégique** est un objectif politique qui se heurte aux réalités économiques (économies d'échelle, interdépendance)
+5. **Les exportations** sont économiquement nécessaires mais politiquement complexes
+:::
+
+## Lectures recommandées
+
+- **Mazzucato, M.** (2013). *The Entrepreneurial State*. Anthem Press. — Trad. française : *L'État entrepreneur*
+- **Markusen, A. et al.** (1991). *The Rise of the Gunbelt*. Oxford UP. — Géographie industrielle de la défense américaine
+- **Porter, M.** (1990). *The Competitive Advantage of Nations*. — Cluster industriels, pertinent pour analyser la BITD
+- **Agence européenne de défense** : [Defence Data](https://eda.europa.eu/publications-and-data/defence-data)
+- **SIPRI** : [Arms Transfers Database](https://www.sipri.org/databases/armstransfers)

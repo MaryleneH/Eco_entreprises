@@ -1,0 +1,371 @@
+---
+title: "Économie de la Défense"
+description: "Formation professionnelle en économie de la défense, statistiques d'entreprises et sources officielles"
+format:
+  html:
+    toc: false
+    include-before-body:
+      text: |
+        <div id="reading-progress-bar"></div>
+---
+
+```{=html}
+<!-- ============================================================
+     HERO SECTION
+     ============================================================ -->
+<section class="hero-section">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-7">
+        <div class="hero-badge">
+          🎓 Formation Professionnelle &nbsp;·&nbsp; 12 semaines
+        </div>
+        <h1 class="hero-title">
+          Économie de la<br>
+          <span class="highlight">Défense & Industrie</span>
+        </h1>
+        <p class="hero-subtitle">
+          Maîtrisez la microéconomie et la macroéconomie appliquées à la défense,
+          les statistiques d'entreprises, les sources officielles (INSEE, Eurostat, OTAN,
+          SSM Défense) et l'analyse des dépenses publiques de défense.
+        </p>
+        <div class="hero-cta">
+          <a href="chapters/learning-path.html" class="btn-primary-hero">
+            🚀 Commencer le parcours
+          </a>
+          <a href="#modules" class="btn-outline-hero">
+            📚 Explorer les modules
+          </a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat-item">
+            <div class="stat-number counter-number" data-target="12" data-suffix=" sem.">12 sem.</div>
+            <div class="stat-label">de formation</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number counter-number" data-target="10" data-suffix=" modules">10 modules</div>
+            <div class="stat-label">thématiques</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number counter-number" data-target="5" data-suffix=" institutions">5 institutions</div>
+            <div class="stat-label">analysées</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number counter-number" data-target="1" data-suffix=" projet">1 projet</div>
+            <div class="stat-label">final complet</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-5 d-none d-lg-block text-center">
+        <div style="position:relative; display:inline-block;">
+          <div style="width:320px;height:320px;border-radius:50%;background:linear-gradient(135deg,rgba(232,160,32,0.15),rgba(45,106,159,0.2));display:flex;align-items:center;justify-content:center;border:2px solid rgba(255,255,255,0.1);">
+            <div style="font-size:7rem;filter:drop-shadow(0 4px 12px rgba(0,0,0,0.3));">⚔️</div>
+          </div>
+          <div style="position:absolute;top:-10px;right:-10px;background:rgba(232,160,32,0.9);color:#0d1b2a;padding:0.5rem 1rem;border-radius:2rem;font-size:0.8rem;font-weight:700;">📊 Data-Driven</div>
+          <div style="position:absolute;bottom:20px;left:-20px;background:rgba(45,106,159,0.9);color:#fff;padding:0.5rem 1rem;border-radius:2rem;font-size:0.8rem;font-weight:700;">🏛️ Sources Officielles</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     STATS BAR
+     ============================================================ -->
+<section class="stats-section">
+  <div class="container">
+    <div class="counter-grid">
+      <div class="counter-item reveal">
+        <div class="counter-number" data-target="2" data-suffix="%">2%</div>
+        <div class="counter-label">Objectif OTAN du PIB</div>
+      </div>
+      <div class="counter-item reveal">
+        <div class="counter-number" data-target="326">326</div>
+        <div class="counter-label">Milliards € (budget défense UE)</div>
+      </div>
+      <div class="counter-item reveal">
+        <div class="counter-number" data-target="4000">4 000</div>
+        <div class="counter-label">Entreprises secteur défense France</div>
+      </div>
+      <div class="counter-item reveal">
+        <div class="counter-number" data-target="32">32</div>
+        <div class="counter-label">Membres de l'OTAN</div>
+      </div>
+    </div>
+    <p style="text-align:center;color:rgba(255,255,255,0.45);font-size:0.75rem;margin-top:1.5rem;">
+      * Chiffres indicatifs à titre illustratif — sources: OTAN, Eurostat, SSM Défense
+    </p>
+  </div>
+</section>
+
+<!-- ============================================================
+     MODULES SECTION
+     ============================================================ -->
+<section class="feature-section bg-light-section" id="modules">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-tag">Programme</span>
+      <h2>Les modules de formation</h2>
+      <p>Un parcours structuré en 10 modules thématiques, du fondamentaux économiques à l'analyse appliquée.</p>
+    </div>
+
+    <div class="modules-grid">
+
+      <a href="chapters/learning-path.html" class="module-card reveal" style="--card-color:#2d6a9f;--card-color-rgb:45,106,159;--card-color-light:#e8a020;">
+        <div class="card-icon">🗺️</div>
+        <div class="card-week-badge">12 semaines</div>
+        <div class="card-title">Parcours de formation</div>
+        <div class="card-description">Le plan complet de 3 mois : objectifs hebdomadaires, lectures, exercices de données et travaux écrits.</div>
+        <div class="card-tags"><span class="tag">Programme</span><span class="tag">Planning</span></div>
+        <span class="card-arrow">→</span>
+      </a>
+
+      <a href="chapters/microeconomics.html" class="module-card reveal" style="--card-color:#1a3a5c;--card-color-rgb:26,58,92;--card-color-light:#2d6a9f;">
+        <div class="card-icon">📉</div>
+        <div class="card-week-badge">Mois 1</div>
+        <div class="card-title">Microéconomie de la défense</div>
+        <div class="card-description">Offre, demande, défaillances de marché, biens publics, oligopoles, information asymétrique et passation de marchés.</div>
+        <div class="card-tags"><span class="tag">Micro</span><span class="tag">Marchés</span><span class="tag">Contrats</span></div>
+        <span class="card-arrow">→</span>
+      </a>
+
+      <a href="chapters/macroeconomics.html" class="module-card reveal" style="--card-color:#2e7d52;--card-color-rgb:46,125,82;--card-color-light:#4caf7d;">
+        <div class="card-icon">📈</div>
+        <div class="card-week-badge">Mois 1-2</div>
+        <div class="card-title">Macroéconomie de la défense</div>
+        <div class="card-description">PIB, dépenses publiques, politique budgétaire, dette, croissance et arbitrages macroéconomiques de la défense.</div>
+        <div class="card-tags"><span class="tag">Macro</span><span class="tag">PIB</span><span class="tag">Budget</span></div>
+        <span class="card-arrow">→</span>
+      </a>
+
+      <a href="chapters/business-statistics-defence.html" class="module-card reveal" style="--card-color:#8e44ad;--card-color-rgb:142,68,173;--card-color-light:#9b59b6;">
+        <div class="card-icon">📊</div>
+        <div class="card-week-badge">Mois 2</div>
+        <div class="card-title">Statistiques d'entreprises</div>
+        <div class="card-description">Entreprises, unités légales, établissements, NAF/NACE, chiffre d'affaires, valeur ajoutée, emploi et investissement.</div>
+        <div class="card-tags"><span class="tag">Stats</span><span class="tag">NAF</span><span class="tag">Entreprises</span></div>
+        <span class="card-arrow">→</span>
+      </a>
+
+      <a href="chapters/institutions-data-sources.html" class="module-card reveal" style="--card-color:#e67e22;--card-color-rgb:230,126,34;--card-color-light:#f39c12;">
+        <div class="card-icon">🏛️</div>
+        <div class="card-week-badge">Mois 2</div>
+        <div class="card-title">Institutions & sources de données</div>
+        <div class="card-description">Comparaison approfondie de l'INSEE, Eurostat, SSM Défense, OTAN et data.gouv.fr — rôles, données, limites.</div>
+        <div class="card-tags"><span class="tag">INSEE</span><span class="tag">Eurostat</span><span class="tag">OTAN</span></div>
+        <span class="card-arrow">→</span>
+      </a>
+
+      <a href="chapters/nato-defence-expenditure.html" class="module-card reveal" style="--card-color:#2980b9;--card-color-rgb:41,128,185;--card-color-light:#3498db;">
+        <div class="card-icon">🛡️</div>
+        <div class="card-week-badge">Mois 2</div>
+        <div class="card-title">OTAN & dépenses de défense</div>
+        <div class="card-description">Les données de l'OTAN, l'objectif des 2% du PIB, le partage du fardeau et les comparaisons internationales.</div>
+        <div class="card-tags"><span class="tag">OTAN</span><span class="tag">2%</span><span class="tag">Comparaison</span></div>
+        <span class="card-arrow">→</span>
+      </a>
+
+      <a href="chapters/defence-industry.html" class="module-card reveal" style="--card-color:#c0392b;--card-color-rgb:192,57,43;--card-color-light:#e74c3c;">
+        <div class="card-icon">🏭</div>
+        <div class="card-week-badge">Mois 3</div>
+        <div class="card-title">Industrie & armement</div>
+        <div class="card-description">Base industrielle de défense, marchés publics, innovation, souveraineté, autonomie stratégique et double usage.</div>
+        <div class="card-tags"><span class="tag">BITD</span><span class="tag">Innovation</span><span class="tag">Souveraineté</span></div>
+        <span class="card-arrow">→</span>
+      </a>
+
+      <a href="chapters/authors-and-readings.html" class="module-card reveal" style="--card-color:#16a085;--card-color-rgb:22,160,133;--card-color-light:#1abc9c;">
+        <div class="card-icon">📚</div>
+        <div class="card-week-badge">Tout au long</div>
+        <div class="card-title">Auteurs & lectures clés</div>
+        <div class="card-description">Sandler, Hartley, Smith, Fontanel, Tirole, Mazzucato — profils, contributions, lectures recommandées et perspectives critiques.</div>
+        <div class="card-tags"><span class="tag">Lectures</span><span class="tag">Auteurs</span><span class="tag">Biblio</span></div>
+        <span class="card-arrow">→</span>
+      </a>
+
+      <a href="chapters/exercises.html" class="module-card reveal" style="--card-color:#27ae60;--card-color-rgb:39,174,96;--card-color-light:#2ecc71;">
+        <div class="card-icon">✏️</div>
+        <div class="card-week-badge">Chaque module</div>
+        <div class="card-title">Exercices</div>
+        <div class="card-description">Exercices conceptuels, analyses de données, comparaisons de sources, questions de dissertation et jalons du projet final.</div>
+        <div class="card-tags"><span class="tag">Exercices</span><span class="tag">Pratique</span><span class="tag">Évaluation</span></div>
+        <span class="card-arrow">→</span>
+      </a>
+
+      <a href="chapters/final-project.html" class="module-card reveal" style="--card-color:#d35400;--card-color-rgb:211,84,0;--card-color-light:#e67e22;">
+        <div class="card-icon">🎯</div>
+        <div class="card-week-badge">Mois 3</div>
+        <div class="card-title">Projet final</div>
+        <div class="card-description">Analyse économique complète du secteur de la défense en France et en Europe : sources, statistiques, comparaison européenne.</div>
+        <div class="card-tags"><span class="tag">Projet</span><span class="tag">Analyse</span><span class="tag">Europe</span></div>
+        <span class="card-arrow">→</span>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     TIMELINE — 3-MONTH JOURNEY
+     ============================================================ -->
+<section class="feature-section" id="parcours">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-tag">Calendrier</span>
+      <h2>Votre parcours en 3 mois</h2>
+      <p>Une progression pédagogique construite pour aller des fondamentaux à l'analyse appliquée.</p>
+    </div>
+
+    <div class="timeline">
+
+      <div class="timeline-item">
+        <div class="timeline-marker">📘</div>
+        <div class="timeline-content">
+          <div class="timeline-month">Mois 1 — Semaines 1 à 4</div>
+          <h4>Fondamentaux économiques</h4>
+          <p>Microéconomie, macroéconomie, marchés de la défense, biens publics et défaillances de marché.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-marker">🏛️</div>
+        <div class="timeline-content">
+          <div class="timeline-month">Mois 2 — Semaines 5 à 8</div>
+          <h4>Institutions & statistiques</h4>
+          <p>INSEE, Eurostat, SSM Défense, OTAN, statistiques d'entreprises, dépenses de défense et comparaisons internationales.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-marker">🎯</div>
+        <div class="timeline-content">
+          <div class="timeline-month">Mois 3 — Semaines 9 à 12</div>
+          <h4>Analyse appliquée & projet final</h4>
+          <p>Industrie de défense, autonomie stratégique, analyse empirique complète et projet final sur la défense en France et en Europe.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     INSTITUTIONS SECTION
+     ============================================================ -->
+<section class="feature-section bg-light-section" id="institutions">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-tag">Sources officielles</span>
+      <h2>Les institutions étudiées</h2>
+      <p>Comprendre les données passe par comprendre qui les produit, comment, et avec quelles limites.</p>
+    </div>
+    <div class="institution-grid">
+      <div class="institution-card reveal">
+        <div class="institution-logo">📈</div>
+        <h4>INSEE</h4>
+        <p>Institut national de la statistique et des études économiques — statistiques d'entreprises, comptabilité nationale, données territoriales.</p>
+      </div>
+      <div class="institution-card reveal">
+        <div class="institution-logo">🇪🇺</div>
+        <h4>Eurostat</h4>
+        <p>Office statistique de l'Union européenne — harmonisation des données, comparaisons européennes, COFOG, NACE.</p>
+      </div>
+      <div class="institution-card reveal">
+        <div class="institution-logo">⚔️</div>
+        <h4>SSM Défense</h4>
+        <p>Service statistique ministériel du Ministère des Armées — données spécifiques au secteur défense français.</p>
+      </div>
+      <div class="institution-card reveal">
+        <div class="institution-logo">🛡️</div>
+        <h4>OTAN</h4>
+        <p>Organisation du Traité de l'Atlantique Nord — statistiques de dépenses de défense, normes internationales, objectif des 2%.</p>
+      </div>
+      <div class="institution-card reveal">
+        <div class="institution-logo">🌐</div>
+        <h4>data.gouv.fr</h4>
+        <p>Portail des données ouvertes du gouvernement français — accès aux données publiques, open data, jeux de données officiels.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     LEARNING OBJECTIVES SECTION
+     ============================================================ -->
+<section class="feature-section bg-dark-section" id="objectifs">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-tag" style="background:rgba(232,160,32,0.15);border-color:rgba(232,160,32,0.35);color:#f5c842;">Objectifs</span>
+      <h2>Ce que vous saurez faire</h2>
+      <p style="color:rgba(255,255,255,0.65);">À l'issue de cette formation, vous maîtriserez les outils essentiels de l'économie de la défense.</p>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-4 reveal">
+        <div style="background:rgba(255,255,255,0.05);border-radius:1rem;padding:1.75rem;border:1px solid rgba(255,255,255,0.08);height:100%;">
+          <div style="font-size:2rem;margin-bottom:1rem;">🔬</div>
+          <h4 style="color:#fff;font-size:1rem;margin-bottom:0.6rem;">Analyser les marchés de défense</h4>
+          <p style="color:rgba(255,255,255,0.65);font-size:0.88rem;margin:0;">Appliquer les outils microéconomiques aux marchés spécifiques de la défense et comprendre leurs imperfections.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 reveal">
+        <div style="background:rgba(255,255,255,0.05);border-radius:1rem;padding:1.75rem;border:1px solid rgba(255,255,255,0.08);height:100%;">
+          <div style="font-size:2rem;margin-bottom:1rem;">📊</div>
+          <h4 style="color:#fff;font-size:1rem;margin-bottom:0.6rem;">Lire les statistiques officielles</h4>
+          <p style="color:rgba(255,255,255,0.65);font-size:0.88rem;margin:0;">Comprendre et exploiter les données de l'INSEE, Eurostat, SSM Défense et OTAN avec un regard critique.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 reveal">
+        <div style="background:rgba(255,255,255,0.05);border-radius:1rem;padding:1.75rem;border:1px solid rgba(255,255,255,0.08);height:100%;">
+          <div style="font-size:2rem;margin-bottom:1rem;">🌍</div>
+          <h4 style="color:#fff;font-size:1rem;margin-bottom:0.6rem;">Comparer à l'échelle européenne</h4>
+          <p style="color:rgba(255,255,255,0.65);font-size:0.88rem;margin:0;">Réaliser des comparaisons internationales rigoureuses et identifier les limites méthodologiques.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 reveal">
+        <div style="background:rgba(255,255,255,0.05);border-radius:1rem;padding:1.75rem;border:1px solid rgba(255,255,255,0.08);height:100%;">
+          <div style="font-size:2rem;margin-bottom:1rem;">🏭</div>
+          <h4 style="color:#fff;font-size:1rem;margin-bottom:0.6rem;">Comprendre la BITD</h4>
+          <p style="color:rgba(255,255,255,0.65);font-size:0.88rem;margin:0;">Analyser la base industrielle et technologique de défense, l'innovation duale et la souveraineté industrielle.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 reveal">
+        <div style="background:rgba(255,255,255,0.05);border-radius:1rem;padding:1.75rem;border:1px solid rgba(255,255,255,0.08);height:100%;">
+          <div style="font-size:2rem;margin-bottom:1rem;">📝</div>
+          <h4 style="color:#fff;font-size:1rem;margin-bottom:0.6rem;">Produire une analyse appliquée</h4>
+          <p style="color:rgba(255,255,255,0.65);font-size:0.88rem;margin:0;">Rédiger une analyse économique structurée du secteur défense avec visualisations et sources vérifiées.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 reveal">
+        <div style="background:rgba(255,255,255,0.05);border-radius:1rem;padding:1.75rem;border:1px solid rgba(255,255,255,0.08);height:100%;">
+          <div style="font-size:2rem;margin-bottom:1rem;">📖</div>
+          <h4 style="color:#fff;font-size:1rem;margin-bottom:0.6rem;">Lire la littérature académique</h4>
+          <p style="color:rgba(255,255,255,0.65);font-size:0.88rem;margin:0;">Naviguer dans la littérature économique sur la défense (Sandler, Hartley, Smith, Fontanel) avec un regard critique.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     FINAL CTA
+     ============================================================ -->
+<section class="feature-section" style="padding:5rem 0;text-align:center;background:linear-gradient(135deg,#f8f9fa 0%,#fff 100%);">
+  <div class="container reveal">
+    <div style="max-width:580px;margin:0 auto;">
+      <span style="display:inline-block;font-size:3rem;margin-bottom:1.5rem;">🚀</span>
+      <h2 style="font-size:2rem;font-weight:800;color:#1a3a5c;margin-bottom:1rem;">Prêt à commencer ?</h2>
+      <p style="color:#6a7a88;font-size:1.05rem;margin-bottom:2rem;line-height:1.7;">
+        Démarrez votre parcours avec le plan de formation de 12 semaines, ou plongez directement dans le premier module de microéconomie.
+      </p>
+      <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;">
+        <a href="chapters/learning-path.html" style="display:inline-flex;align-items:center;gap:0.5rem;background:linear-gradient(135deg,#1a3a5c,#2d6a9f);color:#fff;font-weight:700;font-size:0.95rem;padding:0.85rem 2rem;border-radius:3rem;text-decoration:none;transition:all 0.3s ease;box-shadow:0 4px 20px rgba(26,58,92,0.25);">
+          📋 Voir le parcours complet
+        </a>
+        <a href="chapters/microeconomics.html" style="display:inline-flex;align-items:center;gap:0.5rem;background:transparent;color:#1a3a5c;font-weight:600;font-size:0.95rem;padding:0.85rem 2rem;border-radius:3rem;text-decoration:none;border:2px solid rgba(26,58,92,0.25);transition:all 0.3s ease;">
+          📉 Microéconomie →
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+```

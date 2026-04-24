@@ -1,0 +1,392 @@
+---
+title: "Auteurs et lectures clés"
+subtitle: "Profils, contributions, lectures recommandées et perspectives critiques"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+---
+
+```{=html}
+<div class="hero-badge" style="margin-top:1rem;">📚 Auteurs &nbsp;·&nbsp; Tout au long de la formation</div>
+```
+
+## Introduction et ordre de lecture recommandé
+
+Ce module présente les auteurs et institutions les plus importants pour comprendre l'économie de la défense. Chaque profil inclut une évaluation critique honnête — il ne s'agit pas de présenter tous les auteurs comme équivalents.
+
+::: {.callout-tip}
+## 🗺️ Ordre de lecture recommandé
+
+**Si vous débutez** → Commencez par Sandler & Hartley (vue d'ensemble), puis Smith (rigueur macroéconomique)
+
+**Pour la microéconomie des contrats** → Tirole, puis Hartley (applications défense)
+
+**Pour comprendre l'État et l'innovation** → Mazzucato, avec un regard critique
+
+**Pour la dimension géopolitique** → Fontanel, puis SIPRI pour les données
+
+**Pour la BITD et les clusters** → Porter + Markusen
+
+**Pour une perspective critique radicale** → Melman (à lire en connaissance de ses limites)
+:::
+
+---
+
+## Auteurs académiques
+
+### Todd Sandler
+
+```{=html}
+<div class="author-card reveal">
+  <div class="priority-badge priority-essential">⭐ Incontournable</div>
+  <div class="author-header">
+    <div class="author-avatar">🎓</div>
+    <div class="author-meta">
+      <h4>Todd Sandler</h4>
+      <div class="author-field">Économie de la défense, Biens publics, Alliances</div>
+    </div>
+  </div>
+```
+
+**Qui est-il ?** Économiste américain, professeur à l'Université du Texas à Dallas. L'un des fondateurs de l'économie de la défense moderne et de l'économie politique internationale.
+
+**Contribution principale** : Avec Keith Hartley, il a co-écrit *The Economics of Defense* (1995), la référence encyclopédique du domaine. Ses travaux sur la théorie des alliances, le partage du fardeau au sein de l'OTAN et l'application de la théorie des jeux à la défense sont fondamentaux.
+
+**Pourquoi le lire en premier** : Son approche est rigoureuse, cumulative et pédagogique. Il pose les bases conceptuelles indispensables pour tout le reste.
+
+**Ses limites** : Son travail reste très théorique et centré sur les modèles formels. Il traite peu des dimensions politiques, institutionnelles ou historiques.
+
+**Lecture recommandée** :
+- Sandler, T. & Hartley, K. (1995). *The Economics of Defense*. Cambridge University Press.
+- Sandler, T. & Forbes, J.F. (1980). "Burden Sharing, Strategy, and the Design of NATO." *Economic Inquiry*, 18(3).
+- [Page académique UTD](https://personal.utdallas.edu/~tosandler/)
+
+```{=html}
+</div>
+```
+
+---
+
+### Keith Hartley
+
+```{=html}
+<div class="author-card reveal">
+  <div class="priority-badge priority-essential">⭐ Incontournable</div>
+  <div class="author-header">
+    <div class="author-avatar">🎓</div>
+    <div class="author-meta">
+      <h4>Keith Hartley</h4>
+      <div class="author-field">Économie de la défense, Industrie, Politique d'achat</div>
+    </div>
+  </div>
+```
+
+**Qui est-il ?** Économiste britannique, professeur émérite à l'Université d'York. Spécialiste de l'économie industrielle de la défense, des marchés publics d'armement et de la politique de défense britannique et européenne.
+
+**Contribution principale** : Hartley a produit une œuvre considérable sur l'économie de l'industrie de défense, notamment sur la structure des marchés d'armement, les coûts des équipements militaires, les économies d'échelle et la coopération européenne en matière de défense.
+
+**Ce qui le distingue de Sandler** : Hartley est plus appliqué et moins formel. Ses travaux sont plus directement utiles pour analyser des politiques d'achat et des programmes d'armement concrets.
+
+**Ses limites** : Ses analyses sont souvent centrées sur le Royaume-Uni et peuvent mal s'appliquer à d'autres contextes institutionnels.
+
+**Lecture recommandée** :
+- Hartley, K. (2011). *The Economics of Defence Policy: A New Perspective*. Routledge.
+- Hartley, K. & Sandler, T. (eds.) (1995). *Handbook of Defense Economics*, Vol. 1. Elsevier.
+- Hartley, K. (2020). *The Economics of Arms*. Agenda Publishing.
+
+```{=html}
+</div>
+```
+
+---
+
+### Ron Smith
+
+```{=html}
+<div class="author-card reveal">
+  <div class="priority-badge priority-essential">⭐ Incontournable</div>
+  <div class="author-header">
+    <div class="author-avatar">🎓</div>
+    <div class="author-meta">
+      <h4>Ron Smith</h4>
+      <div class="author-field">Macroéconomie, Défense, Économétrie</div>
+    </div>
+  </div>
+```
+
+**Qui est-il ?** Économiste britannique, professeur à Birkbeck College (Université de Londres). Spécialiste de la macroéconomie de la défense et de l'économétrie appliquée aux questions de sécurité.
+
+**Contribution principale** : Ron Smith a produit des travaux empiriques rigoureux sur la relation entre dépenses de défense et croissance économique, ainsi que sur l'économétrie des dépenses militaires. Son livre *Military Economics* (2009) est une référence accessible et rigoureuse.
+
+**Ce qui le distingue** : Smith est un économètre sérieux. Il maintient une distance critique par rapport aux théories trop formelles et insiste sur la nécessité de tester empiriquement les modèles.
+
+**Ses limites** : Ses travaux peuvent être techniques et supposent une solide formation en économétrie pour être pleinement exploités.
+
+**Lecture recommandée** :
+- Smith, R. (2009). *Military Economics: The Interaction of Power and Money*. Palgrave Macmillan.
+- Dunne, J.P. & Smith, R. (2010). "Military Expenditure and Aggregate Demand." *Defence and Peace Economics*.
+
+```{=html}
+</div>
+```
+
+---
+
+### Jacques Fontanel
+
+```{=html}
+<div class="author-card reveal">
+  <div class="priority-badge priority-important">🔶 Important</div>
+  <div class="author-header">
+    <div class="author-avatar">🎓</div>
+    <div class="author-meta">
+      <h4>Jacques Fontanel</h4>
+      <div class="author-field">Économie de la sécurité, Désarmement, France</div>
+    </div>
+  </div>
+```
+
+**Qui est-il ?** Économiste français, professeur à l'Université Grenoble-Alpes. L'un des rares économistes francophones à avoir consacré toute sa carrière à l'économie de la défense et de la sécurité internationale.
+
+**Contribution principale** : Fontanel a développé une approche française de l'économie de la sécurité internationale, avec une perspective critique sur les dépenses militaires et une attention particulière aux questions de désarmement et de développement. Il a également produit des travaux comparatifs sur les indicateurs de dépenses militaires.
+
+**Ce qui le distingue** : Sa perspective est à la fois économique et géopolitique, avec une dimension normative (plaidoyer pour le désarmement) que les auteurs anglosaxons abordent rarement. Son travail est indispensable pour les francophones.
+
+**Ses limites** : Sa perspective normative peut parfois l'éloigner de la rigueur analytique pure. Ses travaux les plus récents sont moins cités dans la littérature internationale.
+
+**Lecture recommandée** :
+- Fontanel, J. (2004). *Économie politique de la sécurité internationale*. L'Harmattan.
+- Fontanel, J. & Chatterji, M. (eds.) (2008). *War, Peace and Security*. Emerald Publishing.
+- [Publications Jacques Fontanel](https://www.researchgate.net/profile/Jacques-Fontanel)
+
+```{=html}
+</div>
+```
+
+---
+
+### Jean Tirole
+
+```{=html}
+<div class="author-card reveal">
+  <div class="priority-badge priority-important">🔶 Important</div>
+  <div class="author-header">
+    <div class="author-avatar">🏆</div>
+    <div class="author-meta">
+      <h4>Jean Tirole</h4>
+      <div class="author-field">Théorie des contrats, Régulation, Économie industrielle</div>
+    </div>
+  </div>
+```
+
+**Qui est-il ?** Économiste français, prix Nobel d'économie 2014, directeur de la Toulouse School of Economics. Ses travaux portent sur la théorie des contrats, la régulation des monopoles et l'économie industrielle.
+
+**Contribution principale** : Tirole n'est pas un spécialiste de la défense, mais ses théories sont indispensables pour analyser les marchés d'armement. La théorie des contrats incomplets, la régulation des monopoles naturels et l'analyse du pouvoir de marché sont directement applicables aux relations État-industrie de défense.
+
+**Pourquoi le lire dans ce contexte** : La passation de marchés de défense est l'une des applications les plus riches de la théorie des contrats. Tirole fournit les outils analytiques pour comprendre les incitations des contractants, les problèmes d'aléa moral et les mécanismes de révélation de l'information.
+
+**Ses limites** : Son œuvre est très formelle et mathématique. Il faut utiliser des manuels adaptés pour extraire les outils applicables à la défense.
+
+**Lecture recommandée** :
+- Tirole, J. (1988). *The Theory of Industrial Organization*. MIT Press.
+- Laffont, J.-J. & Tirole, J. (1993). *A Theory of Incentives in Procurement and Regulation*. MIT Press. ← **La référence directement applicable à la défense**
+- Tirole, J. (2016). *Économie du bien commun*. PUF. (accessible, sans mathématiques)
+
+```{=html}
+</div>
+```
+
+---
+
+### Mariana Mazzucato
+
+```{=html}
+<div class="author-card reveal">
+  <div class="priority-badge priority-important">🔶 Important</div>
+  <div class="author-header">
+    <div class="author-avatar">🎓</div>
+    <div class="author-meta">
+      <h4>Mariana Mazzucato</h4>
+      <div class="author-field">Innovation, État entrepreneur, Économie de l'innovation</div>
+    </div>
+  </div>
+```
+
+**Qui est-elle ?** Économiste italo-américaine, professeure à l'University College London (UCL), directrice de l'Institute for Innovation and Public Purpose. Très influente dans le débat politique sur le rôle de l'État dans l'innovation.
+
+**Contribution principale** : Sa thèse centrale (*The Entrepreneurial State*, 2013) est que l'État est le premier investisseur dans les technologies à haut risque qui ont ensuite irrigué l'économie civile — dont beaucoup ont des racines militaires (internet, GPS, touchscreen, etc.).
+
+**Pourquoi la lire** : Elle fournit un cadre théorique pour analyser le rôle de la R&D militaire dans l'innovation et pour comprendre pourquoi certains États maintiennent des industries de défense au-delà de la simple logique marchande.
+
+**Ses limites — à lire avec un regard critique** :
+- Elle a tendance à **sélectionner** les exemples de succès et à négliger les échecs de l'État entrepreneur
+- Le transfert technologique militaire → civil est beaucoup plus coûteux et incertain qu'elle ne le laisse entendre
+- Ses prescriptions de politique économique sont souvent plus idéologiques qu'analytiques
+
+**Lecture recommandée** :
+- Mazzucato, M. (2013). *The Entrepreneurial State*. Anthem Press. Trad. fr. : *L'État entrepreneur*. Fayard, 2020.
+- Mazzucato, M. (2021). *Mission Economy*. Allen Lane.
+
+```{=html}
+</div>
+```
+
+---
+
+### Michael Porter
+
+```{=html}
+<div class="author-card reveal">
+  <div class="priority-badge priority-complementary">🔵 Complémentaire</div>
+  <div class="author-header">
+    <div class="author-avatar">🎓</div>
+    <div class="author-meta">
+      <h4>Michael Porter</h4>
+      <div class="author-field">Avantage concurrentiel, Clusters industriels, Compétitivité</div>
+    </div>
+  </div>
+```
+
+**Contribution pour la défense** : Porter n'est pas un économiste de la défense, mais son analyse des **clusters industriels** et de l'**avantage concurrentiel national** est précieuse pour comprendre pourquoi certaines régions ou pays développent des capacités industrielles de défense supérieures. Son "diamant de Porter" s'applique bien à la BITD.
+
+**Lecture recommandée** :
+- Porter, M. (1990). *The Competitive Advantage of Nations*. Free Press.
+
+```{=html}
+</div>
+```
+
+---
+
+### Seymour Melman
+
+```{=html}
+<div class="author-card reveal">
+  <div class="priority-badge priority-complementary">🔵 Complémentaire</div>
+  <div class="author-header">
+    <div class="author-avatar">🎓</div>
+    <div class="author-meta">
+      <h4>Seymour Melman</h4>
+      <div class="author-field">Capitalisme militaire, Désindustrialisation, Économie politique critique</div>
+    </div>
+  </div>
+```
+
+**Contribution** : Melman a développé la thèse du "capitalisme du Pentagone" — que les dépenses militaires américaines excessives ont causé la désindustrialisation civile des États-Unis. Perspective critique utile comme contrepoint.
+
+**Ses limites** : Sa thèse est trop monocausale et idéologiquement marquée. À utiliser comme contre-argument plutôt que comme cadre d'analyse principal. Peu applicable à l'Europe.
+
+**Lecture recommandée** :
+- Melman, S. (1974). *The Permanent War Economy*. Simon & Schuster.
+
+```{=html}
+</div>
+```
+
+---
+
+### Ann Markusen
+
+```{=html}
+<div class="author-card reveal">
+  <div class="priority-badge priority-complementary">🔵 Complémentaire</div>
+  <div class="author-header">
+    <div class="author-avatar">🎓</div>
+    <div class="author-meta">
+      <h4>Ann Markusen</h4>
+      <div class="author-field">Géographie économique, Industrie de défense, Clusters régionaux</div>
+    </div>
+  </div>
+```
+
+**Contribution** : Markusen a analysé la géographie de l'industrie de défense américaine — la création du "Gunbelt" (ceinture industrielle de défense) dans le Sud et l'Ouest des États-Unis, au détriment de la Rust Belt traditionnelle.
+
+**Pertinence** : Son approche géo-économique est utile pour analyser la distribution régionale de la BITD française et les effets territoriaux des dépenses militaires.
+
+**Lecture recommandée** :
+- Markusen, A., Hall, P., Campbell, S. & Deitrick, S. (1991). *The Rise of the Gunbelt*. Oxford UP.
+
+```{=html}
+</div>
+```
+
+---
+
+## Institutions
+
+### SIPRI — Stockholm International Peace Research Institute
+
+```{=html}
+<div class="author-card reveal">
+  <div class="priority-badge priority-essential">⭐ Incontournable</div>
+  <div class="author-header">
+    <div class="author-avatar">🏛️</div>
+    <div class="author-meta">
+      <h4>SIPRI</h4>
+      <div class="author-field">Think tank, Données sur les dépenses militaires et le commerce des armes</div>
+    </div>
+  </div>
+```
+
+**Pourquoi utiliser SIPRI** : C'est la **référence mondiale indépendante** pour les données sur les dépenses militaires mondiales, le commerce des armes, les capacités nucléaires et les conflits armés. Ses bases de données sont librement accessibles et méthodologiquement documentées.
+
+**Ce qu'il publie** :
+- SIPRI Military Expenditure Database (données annuelles depuis 1949 pour 170+ pays)
+- SIPRI Arms Transfers Database
+- SIPRI Yearbook (annuel, très complet)
+- Rapports thématiques sur les technologies militaires, le nucléaire, etc.
+
+**Ses limites** : SIPRI utilise des définitions plus larges que l'OTAN pour les dépenses militaires. Ses données pour les pays avec peu de transparence (Russie, Chine) comportent des marges d'incertitude importantes.
+
+**Lien** : [www.sipri.org](https://www.sipri.org)
+
+```{=html}
+</div>
+```
+
+### OTAN
+
+```{=html}
+<div class="author-card reveal">
+  <div class="priority-badge priority-essential">⭐ Incontournable</div>
+  <div class="author-header">
+    <div class="author-avatar">🛡️</div>
+    <div class="author-meta">
+      <h4>OTAN / NATO</h4>
+      <div class="author-field">Organisation internationale, Données de dépenses, Standards</div>
+    </div>
+  </div>
+```
+
+**Ce qu'il publie** : Statistiques annuelles de dépenses de défense des membres, bases de données sur les capacités, rapports annuels.
+
+**Lien** : [NATO Defence Expenditure Statistics](https://www.nato.int/cps/en/natohq/topics_49198.htm)
+
+```{=html}
+</div>
+```
+
+### Eurostat, INSEE, SSM Défense, data.gouv.fr
+
+→ Voir le module complet [Institutions et sources de données](institutions-data-sources.html) pour les profils détaillés de ces institutions.
+
+---
+
+## Tableau récapitulatif — Qui lire pour quoi ?
+
+| Question | Auteur/Institution prioritaire |
+|---------|-------------------------------|
+| Vue d'ensemble économie de la défense | **Sandler & Hartley** (1995) |
+| Macroéconomie empirique | **Ron Smith** (2009) |
+| Théorie des contrats et marchés publics | **Tirole & Laffont** (1993) |
+| Partage du fardeau OTAN | **Sandler & Forbes** (1980) |
+| Innovation et État | **Mazzucato** (2013) — avec esprit critique |
+| Cluster industriel BITD | **Porter** (1990) |
+| Données mondiales dépenses militaires | **SIPRI** |
+| Données OTAN et 2% du PIB | **NATO Statistics** |
+| Comparaisons européennes | **Eurostat COFOG** |
+| Statistiques françaises défense | **SSM Défense** |
+| Perspective francophone | **Fontanel** (2004) |
+
+: Guide de lecture selon les questions {.striped}

@@ -1,0 +1,76 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Économie de la Défense"
+  description: "Formation professionnelle en économie de la défense, statistiques d'entreprises et sources officielles"
+  favicon: "assets/favicon.ico"
+  
+  navbar:
+    left:
+      - text: "Accueil"
+        href: index.qmd
+      - text: "Parcours"
+        href: chapters/learning-path.qmd
+      - text: "Microéconomie"
+        href: chapters/microeconomics.qmd
+      - text: "Macroéconomie"
+        href: chapters/macroeconomics.qmd
+      - text: "Statistiques"
+        href: chapters/business-statistics-defence.qmd
+      - text: "Institutions"
+        href: chapters/institutions-data-sources.qmd
+      - text: "OTAN"
+        href: chapters/nato-defence-expenditure.qmd
+      - text: "Industrie"
+        href: chapters/defence-industry.qmd
+      - text: "Auteurs"
+        href: chapters/authors-and-readings.qmd
+      - text: "Exercices"
+        href: chapters/exercises.qmd
+      - text: "Projet"
+        href: chapters/final-project.qmd
+      - text: "Ressources"
+        href: chapters/resources.qmd
+    right:
+      - icon: github
+        href: https://github.com/MaryleneH/Eco_entreprises
+        aria-label: GitHub
+    pinned: true
+
+  page-footer:
+    center: |
+      © 2024 Économie de la Défense — Formation Professionnelle
+    background: dark
+
+  open-graph: true
+  twitter-card: true
+
+format:
+  html:
+    theme:
+      - cosmo
+      - styles.scss
+    css: []
+    include-after-body: scripts.js
+    smooth-scroll: true
+    toc: true
+    toc-depth: 3
+    toc-title: "Sur cette page"
+    number-sections: false
+    link-external-icon: true
+    link-external-newwindow: true
+    code-fold: true
+    code-summary: "Voir le code"
+    highlight-style: github
+    mainfont: "Inter, system-ui, sans-serif"
+    monofont: "JetBrains Mono, monospace"
+    fontsize: 1rem
+    linestretch: 1.6
+
+execute:
+  freeze: auto
+  echo: true
+  warning: false
+  message: false

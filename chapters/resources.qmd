@@ -1,0 +1,222 @@
+---
+title: "Ressources"
+subtitle: "Glossaire, sources officielles, bibliographie et notes méthodologiques"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+---
+
+```{=html}
+<div class="hero-badge" style="margin-top:1rem;">📖 Ressources &nbsp;·&nbsp; Référence permanente</div>
+```
+
+## Liens vers les sources de données officielles
+
+### 🇫🇷 Sources françaises
+
+```{=html}
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1rem;margin:1.5rem 0;">
+  <a href="https://www.insee.fr" target="_blank" style="background:#fff;border-radius:0.75rem;padding:1.5rem;border:1px solid rgba(26,58,92,0.1);text-decoration:none;display:block;transition:all 0.3s ease;" onmouseover="this.style.boxShadow='0 8px 30px rgba(26,58,92,0.1)'" onmouseout="this.style.boxShadow='none'">
+    <div style="font-size:1.6rem;margin-bottom:0.5rem;">📈</div>
+    <strong style="color:#1a3a5c;">INSEE</strong><br>
+    <span style="font-size:0.82rem;color:#6a7a88;">Statistiques nationales, comptes nationaux, ESANE, SIRENE</span><br>
+    <span style="font-size:0.78rem;color:#2d6a9f;margin-top:0.5rem;display:block;">www.insee.fr →</span>
+  </a>
+  <a href="https://www.data.gouv.fr" target="_blank" style="background:#fff;border-radius:0.75rem;padding:1.5rem;border:1px solid rgba(26,58,92,0.1);text-decoration:none;display:block;transition:all 0.3s ease;" onmouseover="this.style.boxShadow='0 8px 30px rgba(26,58,92,0.1)'" onmouseout="this.style.boxShadow='none'">
+    <div style="font-size:1.6rem;margin-bottom:0.5rem;">🌐</div>
+    <strong style="color:#1a3a5c;">data.gouv.fr</strong><br>
+    <span style="font-size:0.82rem;color:#6a7a88;">Portail open data français, marchés publics, budget de l'État</span><br>
+    <span style="font-size:0.78rem;color:#2d6a9f;margin-top:0.5rem;display:block;">www.data.gouv.fr →</span>
+  </a>
+  <a href="https://www.defense.gouv.fr" target="_blank" style="background:#fff;border-radius:0.75rem;padding:1.5rem;border:1px solid rgba(26,58,92,0.1);text-decoration:none;display:block;transition:all 0.3s ease;" onmouseover="this.style.boxShadow='0 8px 30px rgba(26,58,92,0.1)'" onmouseout="this.style.boxShadow='none'">
+    <div style="font-size:1.6rem;margin-bottom:0.5rem;">⚔️</div>
+    <strong style="color:#1a3a5c;">Ministère des Armées</strong><br>
+    <span style="font-size:0.82rem;color:#6a7a88;">SSM Défense, DGA, rapports au Parlement, LPM</span><br>
+    <span style="font-size:0.78rem;color:#2d6a9f;margin-top:0.5rem;display:block;">www.defense.gouv.fr →</span>
+  </a>
+  <a href="https://www.budget.gouv.fr" target="_blank" style="background:#fff;border-radius:0.75rem;padding:1.5rem;border:1px solid rgba(26,58,92,0.1);text-decoration:none;display:block;transition:all 0.3s ease;" onmouseover="this.style.boxShadow='0 8px 30px rgba(26,58,92,0.1)'" onmouseout="this.style.boxShadow='none'">
+    <div style="font-size:1.6rem;margin-bottom:0.5rem;">💰</div>
+    <strong style="color:#1a3a5c;">Direction du Budget</strong><br>
+    <span style="font-size:0.82rem;color:#6a7a88;">Budget de l'État, crédits par mission, tableaux de bord</span><br>
+    <span style="font-size:0.78rem;color:#2d6a9f;margin-top:0.5rem;display:block;">www.budget.gouv.fr →</span>
+  </a>
+</div>
+```
+
+### 🇪🇺 Sources européennes
+
+```{=html}
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1rem;margin:1.5rem 0;">
+  <a href="https://ec.europa.eu/eurostat" target="_blank" style="background:#fff;border-radius:0.75rem;padding:1.5rem;border:1px solid rgba(26,58,92,0.1);text-decoration:none;display:block;transition:all 0.3s ease;" onmouseover="this.style.boxShadow='0 8px 30px rgba(26,58,92,0.1)'" onmouseout="this.style.boxShadow='none'">
+    <div style="font-size:1.6rem;margin-bottom:0.5rem;">🇪🇺</div>
+    <strong style="color:#1a3a5c;">Eurostat</strong><br>
+    <span style="font-size:0.82rem;color:#6a7a88;">COFOG, SBS, comptes nationaux européens, comparaisons UE</span><br>
+    <span style="font-size:0.78rem;color:#2d6a9f;margin-top:0.5rem;display:block;">ec.europa.eu/eurostat →</span>
+  </a>
+  <a href="https://www.eda.europa.eu" target="_blank" style="background:#fff;border-radius:0.75rem;padding:1.5rem;border:1px solid rgba(26,58,92,0.1);text-decoration:none;display:block;transition:all 0.3s ease;" onmouseover="this.style.boxShadow='0 8px 30px rgba(26,58,92,0.1)'" onmouseout="this.style.boxShadow='none'">
+    <div style="font-size:1.6rem;margin-bottom:0.5rem;">🛡️</div>
+    <strong style="color:#1a3a5c;">Agence européenne de défense (AED)</strong><br>
+    <span style="font-size:0.82rem;color:#6a7a88;">Defence Data, dépenses de défense UE, coopération industrielle</span><br>
+    <span style="font-size:0.78rem;color:#2d6a9f;margin-top:0.5rem;display:block;">www.eda.europa.eu →</span>
+  </a>
+</div>
+```
+
+### 🌍 Sources internationales
+
+```{=html}
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1rem;margin:1.5rem 0;">
+  <a href="https://www.nato.int/cps/en/natohq/topics_49198.htm" target="_blank" style="background:#fff;border-radius:0.75rem;padding:1.5rem;border:1px solid rgba(26,58,92,0.1);text-decoration:none;display:block;transition:all 0.3s ease;" onmouseover="this.style.boxShadow='0 8px 30px rgba(26,58,92,0.1)'" onmouseout="this.style.boxShadow='none'">
+    <div style="font-size:1.6rem;margin-bottom:0.5rem;">🤝</div>
+    <strong style="color:#1a3a5c;">OTAN — Defence Expenditure Statistics</strong><br>
+    <span style="font-size:0.82rem;color:#6a7a88;">Dépenses de défense des 32 membres, depuis 2006, benchmark des 2%</span><br>
+    <span style="font-size:0.78rem;color:#2d6a9f;margin-top:0.5rem;display:block;">nato.int →</span>
+  </a>
+  <a href="https://www.sipri.org/databases/milex" target="_blank" style="background:#fff;border-radius:0.75rem;padding:1.5rem;border:1px solid rgba(26,58,92,0.1);text-decoration:none;display:block;transition:all 0.3s ease;" onmouseover="this.style.boxShadow='0 8px 30px rgba(26,58,92,0.1)'" onmouseout="this.style.boxShadow='none'">
+    <div style="font-size:1.6rem;margin-bottom:0.5rem;">🔬</div>
+    <strong style="color:#1a3a5c;">SIPRI Military Expenditure Database</strong><br>
+    <span style="font-size:0.82rem;color:#6a7a88;">Dépenses militaires mondiales depuis 1949, 170+ pays, open access</span><br>
+    <span style="font-size:0.78rem;color:#2d6a9f;margin-top:0.5rem;display:block;">sipri.org →</span>
+  </a>
+  <a href="https://www.sipri.org/databases/armstransfers" target="_blank" style="background:#fff;border-radius:0.75rem;padding:1.5rem;border:1px solid rgba(26,58,92,0.1);text-decoration:none;display:block;transition:all 0.3s ease;" onmouseover="this.style.boxShadow='0 8px 30px rgba(26,58,92,0.1)'" onmouseout="this.style.boxShadow='none'">
+    <div style="font-size:1.6rem;margin-bottom:0.5rem;">🚀</div>
+    <strong style="color:#1a3a5c;">SIPRI Arms Transfers Database</strong><br>
+    <span style="font-size:0.82rem;color:#6a7a88;">Transferts d'armements majeurs depuis 1950, exportateurs et importateurs</span><br>
+    <span style="font-size:0.78rem;color:#2d6a9f;margin-top:0.5rem;display:block;">sipri.org/armstransfers →</span>
+  </a>
+</div>
+```
+
+---
+
+## Glossaire
+
+::: {.callout-note}
+## 📖 Bien public pur
+Bien dont la consommation est **non rivale** (ma consommation ne réduit pas celle des autres) et **non excluable** (impossible d'empêcher quelqu'un d'en bénéficier). La défense nationale en est l'exemple canonique.
+:::
+
+::: {.callout-note}
+## 📖 BITD — Base Industrielle et Technologique de Défense
+Ensemble des entreprises, laboratoires et savoir-faire industriels nécessaires à la conception, la production et le maintien en condition opérationnelle des équipements militaires. En France, la BITD comprend des grands groupes (Thales, Airbus Defence, MBDA, Naval Group, Dassault, Safran, Nexter) et un réseau de PME sous-traitantes.
+:::
+
+::: {.callout-note}
+## 📖 COFOG — Classification of Functions of Government
+Classification internationale des dépenses des administrations publiques par fonction. La division **02** correspond à la Défense. Utilisée par Eurostat pour harmoniser les comparaisons de dépenses publiques entre pays de l'UE.
+:::
+
+::: {.callout-note}
+## 📖 Dual-use (technologie duale)
+Technologie, produit ou service utilisable à la fois à des fins civiles et militaires. Exemples : drones, cryptographie, matériaux composites, GPS, intelligence artificielle.
+:::
+
+::: {.callout-note}
+## 📖 ESANE — Élaboration des Statistiques Annuelles d'ENtreprises
+Système de l'INSEE qui produit les statistiques structurelles annuelles des entreprises françaises (chiffre d'affaires, valeur ajoutée, emploi, investissement) à partir de données administratives et d'enquêtes.
+:::
+
+::: {.callout-note}
+## 📖 FED — Fonds européen de la défense
+Instrument financier de l'Union européenne (7,9 Mds € sur 2021–2027) destiné à financer la recherche et le développement en matière de défense, et à encourager la coopération industrielle entre États membres.
+:::
+
+::: {.callout-note}
+## 📖 FBCF — Formation Brute de Capital Fixe
+Mesure de l'investissement en comptabilité nationale : acquisition de biens durables (équipements, machines, bâtiments, R&D...) par les agents économiques. Dans le secteur défense, inclut les équipements militaires lourds et la R&D de défense.
+:::
+
+::: {.callout-note}
+## 📖 LPM — Loi de Programmation Militaire
+Loi française qui planifie les dépenses de défense sur plusieurs années. La LPM 2024–2030 prévoit 413 milliards d'euros de dépenses cumulées sur la période, avec une trajectoire visant 2% du PIB.
+:::
+
+::: {.callout-note}
+## 📖 Monopsone
+Structure de marché dans laquelle un **seul acheteur** fait face à plusieurs vendeurs. L'État français est en position de monopsone (ou quasi-monopsone) sur plusieurs marchés d'armement, lui conférant un pouvoir de négociation important sur les prix et les spécifications.
+:::
+
+::: {.callout-note}
+## 📖 NAF — Nomenclature d'Activités Française
+Déclinaison française de la NACE européenne. Chaque entreprise se voit attribuer un **code APE** (Activité Principale Exercée) qui décrit son activité principale. Le code APE est insuffisant seul pour délimiter le secteur défense (activités duales, sous-traitance mixte).
+:::
+
+::: {.callout-note}
+## 📖 NACE — Nomenclature statistique des Activités économiques dans la Communauté Européenne
+Classification européenne des activités économiques, équivalent européen de la NAF. Utilisée par Eurostat pour harmoniser les statistiques d'entreprises entre pays de l'UE.
+:::
+
+::: {.callout-note}
+## 📖 Passager clandestin (free rider)
+Agent qui bénéficie d'un bien ou service collectif sans contribuer à son financement. Le problème du passager clandestin est structurel pour les biens publics (dont la défense nationale) et justifie le financement public obligatoire via la fiscalité. Il se manifeste aussi dans le contexte de l'OTAN avec le débat sur le partage du fardeau.
+:::
+
+::: {.callout-note}
+## 📖 SCN 2008 — Système de Comptabilité Nationale 2008
+Référentiel international de comptabilité nationale (Nations Unies, 2008), adopté par l'INSEE et Eurostat. Il définit les règles de mesure du PIB et de ses composantes, y compris le traitement de la R&D militaire en FBCF.
+:::
+
+::: {.callout-note}
+## 📖 SIPRI — Stockholm International Peace Research Institute
+Institut de recherche indépendant basé à Stockholm, spécialisé dans les questions de sécurité internationale, d'armement et de désarmement. Référence mondiale pour les données sur les dépenses militaires (MILEX) et les transferts d'armements.
+:::
+
+::: {.callout-note}
+## 📖 SSM Défense — Service Statistique Ministériel de la Défense
+Service statistique officiel du Ministère des Armées français. Il produit et diffuse des statistiques spécialisées sur la défense : emploi dans la BITD, exportations d'armement, dépenses de défense, ressources humaines militaires.
+:::
+
+---
+
+## Bibliographie
+
+### Ouvrages de référence
+
+- **Benoit, E.** (1973). *Defense and Economic Growth in Developing Countries*. Lexington Books.
+- **Fontanel, J.** (2004). *Économie politique de la sécurité internationale*. L'Harmattan.
+- **Hartley, K.** (2011). *The Economics of Defence Policy: A New Perspective*. Routledge.
+- **Hartley, K.** (2020). *The Economics of Arms*. Agenda Publishing.
+- **Hartley, K. & Sandler, T.** (eds.) (1995). *Handbook of Defense Economics*, Vol. 1 & 2. Elsevier.
+- **Laffont, J.-J. & Tirole, J.** (1993). *A Theory of Incentives in Procurement and Regulation*. MIT Press.
+- **Markusen, A., Hall, P., Campbell, S. & Deitrick, S.** (1991). *The Rise of the Gunbelt*. Oxford UP.
+- **Mazzucato, M.** (2013). *The Entrepreneurial State*. Anthem Press.
+- **Melman, S.** (1974). *The Permanent War Economy*. Simon & Schuster.
+- **Porter, M.** (1990). *The Competitive Advantage of Nations*. Free Press.
+- **Sandler, T. & Hartley, K.** (1995). *The Economics of Defense*. Cambridge University Press.
+- **Smith, R.** (2009). *Military Economics: The Interaction of Power and Money*. Palgrave Macmillan.
+- **Tirole, J.** (1988). *The Theory of Industrial Organization*. MIT Press.
+- **Tirole, J.** (2016). *Économie du bien commun*. PUF.
+
+### Articles académiques clés
+
+- **Barro, R.J.** (1981). "Output Effects of Government Purchases." *Journal of Political Economy*, 89(6).
+- **Dunne, J.P. & Smith, R.** (2010). "Military Expenditure and Aggregate Demand." *Defence and Peace Economics*.
+- **Ramey, V.** (2011). "Identifying Government Spending Shocks: It's All in the Timing." *Quarterly Journal of Economics*, 126(1).
+- **Sandler, T. & Forbes, J.F.** (1980). "Burden Sharing, Strategy, and the Design of NATO." *Economic Inquiry*, 18(3).
+
+### Publications officielles
+
+- **Eurostat** : [Government expenditure on defence](https://ec.europa.eu/eurostat/statistics-explained/index.php/Government_expenditure_on_defence)
+- **OTAN** : [Defence Expenditure of NATO Countries (2014–2024)](https://www.nato.int/cps/en/natohq/news_226525.htm)
+- **SIPRI** : [SIPRI Yearbook 2023](https://www.sipri.org/yearbook/2023)
+- **Ministère des Armées** : [Rapport au Parlement sur les exportations d'armement](https://www.defense.gouv.fr)
+- **AED** : [Defence Data 2022](https://www.eda.europa.eu/publications-and-data/defence-data)
+
+---
+
+## Notes méthodologiques
+
+::: {.callout-caution}
+## ⚠️ Avertissement général sur les données de défense
+
+1. **Les données de défense sont souvent classifiées** ou partiellement accessibles. Les statistiques publiées ne représentent qu'une partie de la réalité économique du secteur.
+
+2. **Les définitions divergent** entre sources (OTAN, COFOG, SIPRI, nationales). Ne jamais comparer des chiffres issus de sources différentes sans vérifier leur comparabilité.
+
+3. **Les révisions sont fréquentes** : les données de dépenses de défense sont régulièrement révisées par les États membres et par les organisations internationales.
+
+4. **L'industrie de défense est statistiquement mal délimitée** : les frontières entre activités civiles et militaires sont floues, notamment pour les entreprises à activité duale.
+
+5. **Attention aux chiffres sans source** : de nombreuses statistiques sur la défense circulant dans les médias ou les rapports politiques ne sont pas sourcées ou proviennent de calculs discutables.
+:::

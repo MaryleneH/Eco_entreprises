@@ -1,0 +1,206 @@
+---
+title: "Parcours de Formation"
+subtitle: "Le plan de 12 semaines — de la théorie à l'analyse appliquée"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+---
+
+```{=html}
+<div class="hero-badge" style="margin-top:1rem;">🗺️ Plan de formation &nbsp;·&nbsp; 12 semaines &nbsp;·&nbsp; 3 mois</div>
+```
+
+## Vue d'ensemble du programme
+
+::: {.callout-note}
+## 🎯 Objectif général
+À l'issue de ce programme de 12 semaines, vous serez capable d'analyser le secteur de la défense sous ses dimensions économiques, statistiques et institutionnelles, de mobiliser les sources officielles pertinentes et de produire une analyse empirique rigoureuse.
+:::
+
+Ce parcours est structuré en **trois mois progressifs** :
+
+```{=html}
+<div class="month-section month-1 reveal">
+  <div class="month-header">
+    <div class="month-icon">📘</div>
+    <div>
+      <h3>Mois 1 — Fondamentaux économiques</h3>
+      <p style="margin:0;color:#6a7a88;font-size:0.9rem;">Semaines 1 à 4 &nbsp;·&nbsp; Microéconomie &amp; macroéconomie appliquées à la défense</p>
+    </div>
+  </div>
+  <div class="week-grid">
+    <div class="week-card">
+      <div class="week-number">Semaine 1</div>
+      <h4>Introduction à l'économie de la défense</h4>
+      <ul>
+        <li>Qu'est-ce qu'un bien de défense ?</li>
+        <li>Spécificités du marché de la défense</li>
+        <li>Défense comme bien public</li>
+        <li><strong>Lecture :</strong> Sandler &amp; Hartley, <em>The Economics of Defense</em>, ch. 1</li>
+      </ul>
+    </div>
+    <div class="week-card">
+      <div class="week-number">Semaine 2</div>
+      <h4>Microéconomie : offre, demande et prix</h4>
+      <ul>
+        <li>Marchés de la défense et formation des prix</li>
+        <li>Monopsone de l'État</li>
+        <li>Oligopoles dans l'armement</li>
+        <li><strong>Exercice :</strong> Analyse d'un marché d'armement</li>
+      </ul>
+    </div>
+    <div class="week-card">
+      <div class="week-number">Semaine 3</div>
+      <h4>Défaillances de marché & information asymétrique</h4>
+      <ul>
+        <li>Externalités de la production militaire</li>
+        <li>Information asymétrique dans la passation de marchés</li>
+        <li>Théorie des contrats (Tirole)</li>
+        <li><strong>Lecture :</strong> Tirole, <em>The Theory of Industrial Organization</em></li>
+      </ul>
+    </div>
+    <div class="week-card">
+      <div class="week-number">Semaine 4</div>
+      <h4>Macroéconomie : PIB et dépenses publiques</h4>
+      <ul>
+        <li>Comptabilité nationale et défense</li>
+        <li>Dépenses de défense dans le PIB</li>
+        <li>Multiplicateur keynésien et dépenses militaires</li>
+        <li><strong>Données :</strong> Comptes nationaux INSEE, COFOG Eurostat</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="month-section month-2 reveal">
+  <div class="month-header">
+    <div class="month-icon">🏛️</div>
+    <div>
+      <h3>Mois 2 — Institutions & statistiques de défense</h3>
+      <p style="margin:0;color:#6a7a88;font-size:0.9rem;">Semaines 5 à 8 &nbsp;·&nbsp; Sources officielles, statistiques d'entreprises, dépenses de défense</p>
+    </div>
+  </div>
+  <div class="week-grid">
+    <div class="week-card">
+      <div class="week-number">Semaine 5</div>
+      <h4>Statistiques d'entreprises : concepts fondamentaux</h4>
+      <ul>
+        <li>Entreprise, unité légale, établissement, groupe</li>
+        <li>Nomenclature NAF/NACE et secteur défense</li>
+        <li>Difficultés de délimitation statistique</li>
+        <li><strong>Source :</strong> INSEE, fichier SIRUS, ESANE</li>
+      </ul>
+    </div>
+    <div class="week-card">
+      <div class="week-number">Semaine 6</div>
+      <h4>INSEE, Eurostat et SSM Défense</h4>
+      <ul>
+        <li>Rôles institutionnels comparés</li>
+        <li>Données publiées et méthodologies</li>
+        <li>Articulation entre sources nationales et européennes</li>
+        <li><strong>Exercice :</strong> Trouver et comparer une donnée sur les deux portails</li>
+      </ul>
+    </div>
+    <div class="week-card">
+      <div class="week-number">Semaine 7</div>
+      <h4>OTAN : dépenses de défense et benchmark des 2%</h4>
+      <ul>
+        <li>Méthodologie OTAN de calcul des dépenses</li>
+        <li>Analyse du benchmark des 2% du PIB</li>
+        <li>Partage du fardeau entre alliés</li>
+        <li><strong>Données :</strong> NATO Defence Expenditure Statistics</li>
+      </ul>
+    </div>
+    <div class="week-card">
+      <div class="week-number">Semaine 8</div>
+      <h4>Comparaisons internationales et limites méthodologiques</h4>
+      <ul>
+        <li>Comparabilité des définitions de "dépense de défense"</li>
+        <li>PPA, taux de change et effets de structure</li>
+        <li>SIPRI vs OTAN : différences de mesure</li>
+        <li><strong>Point critique :</strong> Que mesure-t-on vraiment ?</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="month-section month-3 reveal">
+  <div class="month-header">
+    <div class="month-icon">🎯</div>
+    <div>
+      <h3>Mois 3 — Analyse appliquée & projet final</h3>
+      <p style="margin:0;color:#6a7a88;font-size:0.9rem;">Semaines 9 à 12 &nbsp;·&nbsp; Industrie de défense, autonomie stratégique, projet final</p>
+    </div>
+  </div>
+  <div class="week-grid">
+    <div class="week-card">
+      <div class="week-number">Semaine 9</div>
+      <h4>Base industrielle et technologique de défense</h4>
+      <ul>
+        <li>Structure de la BITD française et européenne</li>
+        <li>Marchés publics de défense</li>
+        <li>Innovation duale et technologies stratégiques</li>
+        <li><strong>Lecture :</strong> Mazzucato, <em>The Entrepreneurial State</em></li>
+      </ul>
+    </div>
+    <div class="week-card">
+      <div class="week-number">Semaine 10</div>
+      <h4>Souveraineté, autonomie stratégique et exportations</h4>
+      <ul>
+        <li>Concept d'autonomie stratégique européenne</li>
+        <li>Exportations d'armement et enjeux géopolitiques</li>
+        <li>Le rôle de l'État dans l'industrie de défense</li>
+        <li><strong>Source :</strong> Rapports DGA, SIPRI Arms Transfers Database</li>
+      </ul>
+    </div>
+    <div class="week-card">
+      <div class="week-number">Semaine 11</div>
+      <h4>Travail sur le projet final — collecte et analyse</h4>
+      <ul>
+        <li>Collecte des données INSEE, Eurostat, OTAN, SSM</li>
+        <li>Structuration de l'analyse comparative</li>
+        <li>Visualisations et représentations graphiques</li>
+        <li><strong>Jalon :</strong> Ébauche du plan détaillé</li>
+      </ul>
+    </div>
+    <div class="week-card">
+      <div class="week-number">Semaine 12</div>
+      <h4>Finalisation du projet et restitution</h4>
+      <ul>
+        <li>Rédaction de la conclusion et des limites</li>
+        <li>Révision critique des sources utilisées</li>
+        <li>Présentation et discussion des résultats</li>
+        <li><strong>Livrable :</strong> Projet final complet</li>
+      </ul>
+    </div>
+  </div>
+</div>
+```
+
+## Charge de travail estimée
+
+| Mois | Lectures | Exercices | Travaux de données | Rédaction |
+|------|----------|-----------|-------------------|-----------|
+| Mois 1 | 4 chapitres | 4 exercices | 2 TD | — |
+| Mois 2 | 4 chapitres | 4 exercices | 4 TD | Note synthèse |
+| Mois 3 | 3 chapitres | 2 exercices | 4 TD | Projet final |
+
+: Charge indicative par mois {.striped}
+
+::: {.callout-tip}
+## 💡 Conseil méthodologique
+Pour tirer le maximum de cette formation, combinez systématiquement la lecture des textes théoriques avec la manipulation des données officielles. Chaque concept abstrait doit être ancré dans une donnée réelle, vérifiable et sourcée.
+:::
+
+## Ressources transversales
+
+Tout au long de la formation, vous serez amenés à utiliser :
+
+- **[INSEE](https://www.insee.fr)** — statistiques nationales françaises
+- **[Eurostat](https://ec.europa.eu/eurostat)** — statistiques européennes harmonisées  
+- **[OTAN Statistiques](https://www.nato.int/nato_static_fl2014/assets/pdf/2024/6/pdf/240617-def-exp-2024-en.pdf)** — dépenses de défense des alliés
+- **[data.gouv.fr](https://www.data.gouv.fr)** — données ouvertes françaises
+- **[SIPRI](https://www.sipri.org)** — Institut international de recherche sur la paix de Stockholm
+
+Consultez le module [Ressources](resources.html) pour la liste complète des liens.
