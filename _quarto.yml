@@ -4,6 +4,7 @@ project:
   resources:
     - scripts.js
     - assets/
+    - .nojekyll
 
 website:
   site-url: "https://maryleneh.github.io/Eco_entreprises/"

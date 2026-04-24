@@ -220,10 +220,17 @@
   // PAGE TRANSITION — FADE IN ON LOAD
   // ============================================================
   function initPageTransition() {
+    // This function is called from within a window.load handler,
+    // so we cannot register another window.load listener here.
+    // Use double requestAnimationFrame to guarantee opacity:0 is painted
+    // in one frame before restoring to 1 in the next, creating a
+    // smooth fade-in effect without leaving the page permanently blank.
     document.body.style.opacity = '0';
     document.body.style.transition = 'opacity 0.4s ease';
-    window.addEventListener('load', function () {
-      document.body.style.opacity = '1';
+    requestAnimationFrame(function () {
+      requestAnimationFrame(function () {
+        document.body.style.opacity = '1';
+      });
     });
   }
 
